@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "edition": "web",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 29628,
+      "sha256": "b80e87271d17b863946f63e667b7fc9ae9514b1c488db1c40d59aae92bf41d80"
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 121268,
+      "sha256": "442f6fdc4205ec02575b560b15aad395dcf4d4e4a2a12e5f9baba40ce446e715"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 67049,
+      "sha256": "2575da6e1f1a17f575cacadc5a36adf8f082c2273592ec7d39765b5ca274a089"
+    },
+    {
+      "path": "sale-tracker.mjs",
+      "bytes": 13183,
+      "sha256": "483fd350a898c76c86c2667dcc9821aa1f0ad3300b4d12a97303e6c068fdc541"
+    },
+    {
+      "path": "sale-calendar-view.mjs",
+      "bytes": 5450,
+      "sha256": "d00647e7f866093ea71a7d6524df7b30477aa5630b6f21b8ede927c7686f3202"
+    },
+    {
+      "path": "src/adapters.mjs",
+      "bytes": 14404,
+      "sha256": "abc822a509e5a4a5ff7fcf9f3d49c3ac0d1a8953bc695eee854b828956626798"
+    },
+    {
+      "path": "src/engine.mjs",
+      "bytes": 7913,
+      "sha256": "e30c8616531b6313572e36fba3bcf315a91430d38a5a0438423a9dc7bb58b047"
+    },
+    {
+      "path": "src/reminders.mjs",
+      "bytes": 10944,
+      "sha256": "7aa1aa1364a00a364d6c1c5ff1e639b0b6eb545bddb8dff8ffc3ecbd11d496c6"
+    },
+    {
+      "path": "src/plan-source.mjs",
+      "bytes": 10577,
+      "sha256": "6f2c8f414f22928daeb6e427301159efd9ad1855ef26f0b2a6ed3df859f3c322"
+    },
+    {
+      "path": "sale-calendar.json",
+      "bytes": 264494,
+      "sha256": "b2545f88a5b8544ed93f3d6a99e838339bd08d4857e0595f4a4f19814f66d897"
+    }
+  ],
+  "snapshotAt": "2026-10-29T17:36:20.510Z"
+}
