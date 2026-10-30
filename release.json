@@ -50,15 +50,15 @@
     {
       "path": "sale-calendar.json",
       "bytes": 267795,
-      "sha256": "287e858e7d488fc0f0ba8beb7a7eb543bb099af08f2015ac5c606ead98cf2a3a"
+      "sha256": "a062e908399cc7e113bb6b293ae6f00f0a5666847d7191f3730ebeb24316becf"
     },
     {
       "path": "update-status.json",
       "bytes": 737,
-      "sha256": "1a38ad38999ba0d72034b9a4f2431e376957751e8e45d78ac46c909dd6553afd"
+      "sha256": "19fb4027d6b8ac902d135a9b40cb57c242ca2a258a2f5127ea5041427b6ff69a"
     }
   ],
-  "snapshotAt": "2026-10-30T22:17:01.234Z",
+  "snapshotAt": "2026-10-30T23:17:01.263Z",
   "updateStatusReader": 1,
   "fixedLegacySupplement": {
     "version": 1,
