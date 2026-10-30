@@ -1103,7 +1103,9 @@ function installFillSheet(){
     const input=rawPlan(),route=fillingRoute(platform),rows=$('fill-plan-rows'),references=$('fill-reference-rows');rows.replaceChildren();references.replaceChildren();
     const stages=route.stages.map(text=>{const item=document.createElement('li');item.textContent=text;return item;});$('fill-platform-order').replaceChildren(...stages);
     $('fill-platform-note').textContent=route.note;$('fill-platform-source').href=route.source;$('fill-platform-source').textContent=route.sourceLabel;
-    if(route.contactFirst)rows.before($('fill-contact'));else $('fill-plan-reference').after($('fill-contact'));
+    const contacts=$('fill-contact'),reference=$('fill-plan-reference');
+    const needsMove=route.contactFirst?contacts.nextElementSibling!==rows:reference.nextElementSibling!==contacts;
+    if(needsMove){const focused=contacts.contains(document.activeElement)?document.activeElement:null;if(route.contactFirst)rows.before(contacts);else reference.after(contacts);if(focused)focused.focus({preventScroll:true});}
     const labels={title:'活動',session:'場次',area:'票區',quantity:'張數',maxPrice:'每張上限'};
     for(const key of [...route.planOrder,...route.referenceOrder]){const label=labels[key],value=String(input[key]??'');
       const row=document.createElement('div'),content=document.createElement('div'),name=document.createElement('span'),text=document.createElement('strong'),button=document.createElement('button');
@@ -1205,6 +1207,7 @@ function installPhasePreparation(){
   const facts=(target,entries)=>{target.replaceChildren();for(const[label,value]of entries){const a=document.createElement('dt'),b=document.createElement('dd');a.textContent=label;b.textContent=value??'未知';target.append(a,b);}};
   const invalidatePending=reason=>{if(pending?.kind==='source-update'&&dialog.open){pending.invalidated=true;$('phase-preview-confirm').disabled=true;$('phase-preview-error').textContent=reason;}};
   function renderReference(){
+    $('phase-return').hidden=mode!=='live'||!rawPlan().origin;
     const navigationPlan=mode==='live'?rawPlan():savedLivePlan,review=sourceChanges(navigationPlan,events,{status:catalogStatus});
     let completeNavigation=false;try{validatePlan(navigationPlan,{live:true});completeNavigation=true;}catch{}
     sourceNavigation=completeNavigation&&navigationPlan.origin&&catalogStatus!=='loading'&&(review.changes.length||review.blocked)?{target:review.changes.length&&review.candidate&&catalogStatus==='ready'?'source-update':'phase-reference',label:review.changes.length?'核對來源變更':'來源待核'}:null;
@@ -1214,6 +1217,10 @@ function installPhasePreparation(){
     facts($('phase-reference-facts'),[['選定階段／資格',r.label+' · '+r.eligibility],['引用狀態',state.snapshot],...(state.changed.length?[['草稿與原引用不同',state.changed.join('、')+'已修改；原來源 ID 保留，未重新關聯']]:[]),['來源時效',state.ageNote],['公告來源',r.sourceUrl],['原觀測（台灣 UTC+8）',r.observedAt?taipeiTime(Date.parse(r.observedAt)):'未知'],['原公告時間',r.startsAt?taipeiTime(Date.parse(r.startsAt))+' · '+r.precision:'未知；不使用演出日期']]);
     $('source-update').hidden=!review.changes.length;$('source-update').disabled=!review.candidate||catalogStatus!=='ready';$('source-update-status').textContent=review.blocked|| (review.changes.length?review.changes.map(c=>c.label).join('、')+'有差異；尚未改動計畫或提醒。':'來源參考 · 未確認資格或可買');
   }
+  $('phase-return').addEventListener('click',()=>{
+    const source=mode==='live'?rawPlan().origin:null;if(!source)return;
+    document.dispatchEvent(new CustomEvent('encore-phase-return',{detail:{eventId:source.eventId,phaseId:source.phaseId}}));
+  });
   $('source-update').addEventListener('click',()=>{
     const review=updateState();if(!review.candidate||!review.changes.length||catalogStatus!=='ready')return;
     pending={kind:'source-update',origin:$('source-update'),before:current(),revision:userRevision,selection:null,signature:review.signature,invalidated:false};

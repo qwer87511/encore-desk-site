@@ -4,23 +4,23 @@
   "files": [
     {
       "path": "index.html",
-      "bytes": 29628,
-      "sha256": "b80e87271d17b863946f63e667b7fc9ae9514b1c488db1c40d59aae92bf41d80"
+      "bytes": 29758,
+      "sha256": "89718a585bbc460395ce8ad580d8f09cfa6b663e9b2099d179159bedd18e2757"
     },
     {
       "path": "app.mjs",
-      "bytes": 121268,
-      "sha256": "442f6fdc4205ec02575b560b15aad395dcf4d4e4a2a12e5f9baba40ce446e715"
+      "bytes": 121886,
+      "sha256": "4b709b3fde4201d6ca0f89233cac3d24024e51ae08b1838f8722e88c4c7caba3"
     },
     {
       "path": "styles.css",
-      "bytes": 67049,
-      "sha256": "2575da6e1f1a17f575cacadc5a36adf8f082c2273592ec7d39765b5ca274a089"
+      "bytes": 67190,
+      "sha256": "62dd76a88c96b96181fef1c909c6447a3bbd5cfac6f1d2757d1ae0ec12304d03"
     },
     {
       "path": "sale-tracker.mjs",
-      "bytes": 13183,
-      "sha256": "483fd350a898c76c86c2667dcc9821aa1f0ad3300b4d12a97303e6c068fdc541"
+      "bytes": 15400,
+      "sha256": "263db521fea0a37a919c292d0bd258a119685f82edbdc37766e947e502bb846d"
     },
     {
       "path": "sale-calendar-view.mjs",
