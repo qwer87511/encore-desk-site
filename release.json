@@ -19,8 +19,8 @@
     },
     {
       "path": "sale-tracker.mjs",
-      "bytes": 15400,
-      "sha256": "263db521fea0a37a919c292d0bd258a119685f82edbdc37766e947e502bb846d"
+      "bytes": 17561,
+      "sha256": "67e37836919ea292bf1ce3dcf6051af2fae152ec553c3352cb87e958972b5ecc"
     },
     {
       "path": "sale-calendar-view.mjs",
@@ -51,7 +51,13 @@
       "path": "sale-calendar.json",
       "bytes": 264494,
       "sha256": "b2545f88a5b8544ed93f3d6a99e838339bd08d4857e0595f4a4f19814f66d897"
+    },
+    {
+      "path": "update-status.json",
+      "bytes": 264,
+      "sha256": "15407760db34835213ccd1f411d63cdfbe280274f6ce2ad8d1e6c90a88b4e024"
     }
   ],
-  "snapshotAt": "2026-10-29T17:36:20.510Z"
+  "snapshotAt": "2026-10-29T17:36:20.510Z",
+  "updateStatusReader": 1
 }
