@@ -19,8 +19,8 @@
     },
     {
       "path": "sale-tracker.mjs",
-      "bytes": 17561,
-      "sha256": "67e37836919ea292bf1ce3dcf6051af2fae152ec553c3352cb87e958972b5ecc"
+      "bytes": 66833,
+      "sha256": "964e2dce95073526b06d917e54bfa22e0c19235968320b214fe68be29d7d76fd"
     },
     {
       "path": "sale-calendar-view.mjs",
@@ -59,5 +59,17 @@
     }
   ],
   "snapshotAt": "2026-10-30T16:17:01.482Z",
-  "updateStatusReader": 1
+  "updateStatusReader": 1,
+  "fixedLegacySupplement": {
+    "version": 1,
+    "source": "Legacy",
+    "observedFrom": "2026-10-30T13:11:59.373Z",
+    "observedThrough": "2026-10-30T13:21:57.149Z",
+    "autoUpdated": false,
+    "entries": 20,
+    "knownSalePhases": 5,
+    "unknownEntries": 16,
+    "embeddedIn": "sale-tracker.mjs",
+    "snapshotSha256": "2361402a79d41ca963cae3b0fc08474d2892c7030094f2a10d3c3b46406983a7"
+  }
 }
