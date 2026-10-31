@@ -19,8 +19,8 @@
     },
     {
       "path": "sale-tracker.mjs",
-      "bytes": 66833,
-      "sha256": "964e2dce95073526b06d917e54bfa22e0c19235968320b214fe68be29d7d76fd"
+      "bytes": 67042,
+      "sha256": "e8cf673e8d9be21709ed270ea29ab70bf7f71a897c04305ad5ea1f4f55543b9f"
     },
     {
       "path": "sale-calendar-view.mjs",
