@@ -49,16 +49,16 @@
     },
     {
       "path": "sale-calendar.json",
-      "bytes": 295996,
-      "sha256": "e99918bfaa811d52c5540a54a9706c8ca4a852f092bb7b947269388b36e3bbc6"
+      "bytes": 296005,
+      "sha256": "f93607efd1e0f7b0d53a0e0be41afba45dd051a41268c137bf0c553d9c8b8aab"
     },
     {
       "path": "update-status.json",
-      "bytes": 737,
-      "sha256": "831e48c38bcf5e420917b9529273c091c404f1c12541816c89b1c28e7782fdea"
+      "bytes": 747,
+      "sha256": "a51dcb8a7b1714634cac720db3eadacb70a1b2090d30f01eec866c7c5e9eb7b0"
     }
   ],
-  "snapshotAt": "2026-11-01T22:17:01.373Z",
+  "snapshotAt": "2026-11-01T23:17:01.368Z",
   "updateStatusReader": 1,
   "fixedLegacySupplement": {
     "version": 1,
