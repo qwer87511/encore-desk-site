@@ -3,9 +3,9 @@
   "contractVersion": 1,
   "timezone": "Asia/Taipei",
   "snapshot": {
-    "generatedAt": "2026-11-01T15:17:01.361Z",
+    "generatedAt": "2026-11-01T16:17:01.357Z",
     "producer": "encore-desk",
-    "sourceSnapshotHash": "6079a9e8361d57eaa46ec259f0678af395df92a9482b7377c389f1e257ef42b6",
+    "sourceSnapshotHash": "276019984105b9e16b301b66dfa26c4d412e44a6248a498448f56c8b2550dc5e",
     "freshness": "per-source-evidence",
     "complete": false
   },
@@ -20,10 +20,10 @@
   "coverage": {
     "description": "官方推薦/公開列表抽樣；非全台完整清單",
     "complete": false,
-    "sourceRecordCount": 93,
-    "eventGroupCount": 89,
-    "inputClaimCount": 116,
-    "distinctPhaseCount": 42,
+    "sourceRecordCount": 96,
+    "eventGroupCount": 92,
+    "inputClaimCount": 119,
+    "distinctPhaseCount": 45,
     "unresolvedClaimCount": 74,
     "sources": [
       {
@@ -102,8 +102,8 @@
         "url": "https://www.livenation.com.tw/",
         "scope": "官方首頁推薦藝人與其台灣演出；非全部主辦",
         "status": "partial",
-        "attemptedAt": "2026-11-01T15:17:01.361Z",
-        "lastSuccessfulAt": "2026-11-01T15:17:03.900Z",
+        "attemptedAt": "2026-11-01T16:17:01.357Z",
+        "lastSuccessfulAt": "2026-11-01T16:17:03.868Z",
         "discovered": 4,
         "parsed": 4,
         "errors": [
@@ -116,13 +116,11 @@
         "url": "https://www.opentix.life/",
         "scope": "官方首頁推薦節目；含戲劇、音樂與親子，非全站",
         "status": "partial",
-        "attemptedAt": "2026-11-01T15:17:01.361Z",
-        "lastSuccessfulAt": "2026-11-01T15:17:25.572Z",
+        "attemptedAt": "2026-11-01T16:17:01.357Z",
+        "lastSuccessfulAt": "2026-11-01T16:17:23.452Z",
         "discovered": 65,
-        "parsed": 3,
-        "errors": [
-          "官方結構化 Event 格式未辨識，保留舊資料"
-        ]
+        "parsed": 4,
+        "errors": []
       }
     ],
     "limitations": [
@@ -1220,6 +1218,109 @@
           "lastVerifiedAt": "2026-11-01T12:17:34.746Z",
           "status": "published",
           "stale": true
+        }
+      ]
+    },
+    {
+      "id": "event-22e9c3ea9a4dade68295a9e4",
+      "title": "2026 NTT遇見巨人—羅伯．勒帕吉╳柏林雷寧廣場劇院《信仰、金錢、戰爭與愛》",
+      "category": "theatre",
+      "venue": "臺中國家歌劇院中劇院",
+      "venueTag": null,
+      "sourceRecordIds": [
+        "opentix:0bc0996dcc20dd810310"
+      ],
+      "identity": {
+        "scope": "event-program",
+        "decision": "source-record-only",
+        "doesNotAssertSamePerformance": false
+      },
+      "status": "published",
+      "sessions": [
+        {
+          "id": "session-ab082ed696d1fd6b074dc4a0",
+          "startsAt": "2026-11-27T10:00:00.000Z",
+          "localDate": "2026-11-27",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:0bc0996dcc20dd810310"
+          ]
+        },
+        {
+          "id": "session-bc339ae6dbdd1dd599b85632",
+          "startsAt": "2026-11-28T06:30:00.000Z",
+          "localDate": "2026-11-28",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:0bc0996dcc20dd810310"
+          ]
+        },
+        {
+          "id": "session-84f8705cce0fd7965cb90ea8",
+          "startsAt": "2026-11-29T06:30:00.000Z",
+          "localDate": "2026-11-29",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:0bc0996dcc20dd810310"
+          ]
+        }
+      ],
+      "salePhases": [
+        {
+          "id": "phase-2a78f6d15ddd6fa10b588596",
+          "kind": "announced",
+          "label": "平台起售時間（資格待核實）",
+          "startsAt": "2026-08-04T04:00:00.000Z",
+          "endsAt": "2026-11-29T11:15:00.000Z",
+          "eligibility": "資格未核實",
+          "appliesToSessionIds": [
+            "session-ab082ed696d1fd6b074dc4a0",
+            "session-bc339ae6dbdd1dd599b85632",
+            "session-84f8705cce0fd7965cb90ea8"
+          ],
+          "scope": "explicit-sessions",
+          "status": "announced",
+          "precision": "minute",
+          "claims": [
+            {
+              "id": "claim-1515d40fab15c57846aa06d4",
+              "sourceRecordId": "opentix:0bc0996dcc20dd810310",
+              "sourcePhaseId": "65cb9809366560a81adc",
+              "sourceUrl": "https://www.opentix.life/event/2076923186045493249",
+              "evidenceText": "offers.availabilityStarts=2026-08-04T12:00:00; validFrom=2026-08-04T12:00:00",
+              "fetchedAt": "2026-11-01T16:17:27.515Z",
+              "label": "平台起售時間（資格待核實）",
+              "kind": "announced",
+              "status": "announced",
+              "stale": false,
+              "startsAt": "2026-08-04T04:00:00.000Z",
+              "endsAt": "2026-11-29T11:15:00.000Z",
+              "eligibility": "資格未核實",
+              "appliesToSessionStartsAt": [
+                "2026-11-27T10:00:00.000Z",
+                "2026-11-28T06:30:00.000Z",
+                "2026-11-29T06:30:00.000Z"
+              ],
+              "precision": "minute",
+              "previousStartsAt": null
+            }
+          ]
+        }
+      ],
+      "unresolvedEvidence": [],
+      "sources": [
+        {
+          "recordId": "opentix:0bc0996dcc20dd810310",
+          "sourceId": "opentix",
+          "url": "https://www.opentix.life/event/2076923186045493249",
+          "title": "2026 NTT遇見巨人—羅伯．勒帕吉╳柏林雷寧廣場劇院《信仰、金錢、戰爭與愛》",
+          "venue": "臺中國家歌劇院中劇院",
+          "eventAt": "2026-11-27T10:00:00.000Z",
+          "eventDateText": null,
+          "fetchedAt": "2026-11-01T16:17:27.515Z",
+          "lastVerifiedAt": "2026-11-01T16:17:27.515Z",
+          "status": "published",
+          "stale": false
         }
       ]
     },
@@ -2831,7 +2932,7 @@
               "sourcePhaseId": "015b9906a2806c2c4451",
               "sourceUrl": "https://www.opentix.life/event/2107747027374047233",
               "evidenceText": "offers.availabilityStarts=2026-10-13T12:00:00; validFrom=2026-10-13T12:00:00",
-              "fetchedAt": "2026-11-01T15:17:29.596Z",
+              "fetchedAt": "2026-11-01T16:17:26.130Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -2873,8 +2974,8 @@
           "venue": "十鼓文創園區 夢糖劇場",
           "eventAt": "2027-02-06T05:00:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-01T15:17:29.596Z",
-          "lastVerifiedAt": "2026-11-01T15:17:29.596Z",
+          "fetchedAt": "2026-11-01T16:17:26.130Z",
+          "lastVerifiedAt": "2026-11-01T16:17:26.130Z",
           "status": "published",
           "stale": false
         }
@@ -4264,7 +4365,7 @@
               "sourcePhaseId": "24c202f25114ad6325d9",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "➤ EYEKONS Membership Presale Registration｜優先購票登記 2026/10/29 11AM - 2026/11/1 6:59PM",
-              "fetchedAt": "2026-11-01T15:17:16.983Z",
+              "fetchedAt": "2026-11-01T16:17:15.949Z",
               "label": "EYEKONS Membership Presale Registration｜優先購票登記",
               "kind": "registration",
               "status": "announced",
@@ -4296,7 +4397,7 @@
               "sourcePhaseId": "37b18b65fa86586ce410",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "EYEKONS Membership Presale｜優先購票 On sale: 2026年11月10日週二 上午10:00",
-              "fetchedAt": "2026-11-01T15:17:16.983Z",
+              "fetchedAt": "2026-11-01T16:17:15.949Z",
               "label": "EYEKONS Membership Presale｜優先購票",
               "kind": "member",
               "status": "announced",
@@ -4328,7 +4429,7 @@
               "sourcePhaseId": "99e8bad23dd312069c1e",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "➤ 萬事達卡預售票（僅限萬事達卡信用卡與簽帳金融卡付款） 2026/11/11 10AM – 2026/11/12 10AM",
-              "fetchedAt": "2026-11-01T15:17:16.983Z",
+              "fetchedAt": "2026-11-01T16:17:15.949Z",
               "label": "萬事達卡預售票",
               "kind": "card",
               "status": "announced",
@@ -4360,7 +4461,7 @@
               "sourcePhaseId": "193f6170b48e773f60c0",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "KATSEYE.WORLD 藝人官方預售 On sale: 2026年11月12日週四 下午12:00",
-              "fetchedAt": "2026-11-01T15:17:16.983Z",
+              "fetchedAt": "2026-11-01T16:17:15.949Z",
               "label": "KATSEYE.WORLD 藝人官方預售",
               "kind": "fan",
               "status": "announced",
@@ -4392,7 +4493,7 @@
               "sourcePhaseId": "c6d63dd2e5888458262c",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "萬事達卡精選票 On sale: 2026年11月13日週五 下午12:00",
-              "fetchedAt": "2026-11-01T15:17:16.983Z",
+              "fetchedAt": "2026-11-01T16:17:15.949Z",
               "label": "萬事達卡精選票",
               "kind": "card",
               "status": "announced",
@@ -4424,7 +4525,7 @@
               "sourcePhaseId": "56da4672e8513ed79ac7",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "拓元售票系統 全面開賣 On sale: 2026年11月13日週五 下午12:00",
-              "fetchedAt": "2026-11-01T15:17:16.983Z",
+              "fetchedAt": "2026-11-01T16:17:15.949Z",
               "label": "拓元售票系統 全面開賣",
               "kind": "general",
               "status": "announced",
@@ -4449,8 +4550,8 @@
           "venue": "桃園會展中心",
           "eventAt": null,
           "eventDateText": "2027/2/14",
-          "fetchedAt": "2026-11-01T15:17:16.983Z",
-          "lastVerifiedAt": "2026-11-01T15:17:16.983Z",
+          "fetchedAt": "2026-11-01T16:17:15.949Z",
+          "lastVerifiedAt": "2026-11-01T16:17:15.949Z",
           "status": "published",
           "stale": false
         }
@@ -5127,6 +5228,252 @@
           "eventDateText": "2027/01/08 (五) ~ 2027/01/10 (日)",
           "fetchedAt": "2026-10-29T15:02:14.251Z",
           "lastVerifiedAt": "2026-10-29T15:02:14.251Z",
+          "status": "published",
+          "stale": false
+        }
+      ]
+    },
+    {
+      "id": "event-950bc9d5bf197f3126f925e7",
+      "title": "吳念真國民戲劇《人間條件三》台北上午零時",
+      "category": "theatre",
+      "venue": "衛武營國家藝術文化中心歌劇院",
+      "venueTag": null,
+      "sourceRecordIds": [
+        "opentix:27c1e7e3b8611b7a695d"
+      ],
+      "identity": {
+        "scope": "event-program",
+        "decision": "source-record-only",
+        "doesNotAssertSamePerformance": false
+      },
+      "status": "published",
+      "sessions": [
+        {
+          "id": "session-f530b208a751fa8ded94f6f5",
+          "startsAt": "2026-11-13T11:30:00.000Z",
+          "localDate": "2026-11-13",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-222a60bd34677761477f709c",
+          "startsAt": "2026-11-14T06:30:00.000Z",
+          "localDate": "2026-11-14",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-bd121932acd2f371ce12ed9e",
+          "startsAt": "2026-11-14T11:30:00.000Z",
+          "localDate": "2026-11-14",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-35bae2ffdcebc83cd9d4dd44",
+          "startsAt": "2026-11-15T06:30:00.000Z",
+          "localDate": "2026-11-15",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-f889469457a76ba96fa88000",
+          "startsAt": "2026-12-04T11:30:00.000Z",
+          "localDate": "2026-12-04",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-e799f6f6890a231c401e63f7",
+          "startsAt": "2026-12-05T06:30:00.000Z",
+          "localDate": "2026-12-05",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-c16bf18287e9ac0f4599112d",
+          "startsAt": "2026-12-05T11:30:00.000Z",
+          "localDate": "2026-12-05",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-0ebe0f1ab3550dee524febd3",
+          "startsAt": "2026-12-06T06:30:00.000Z",
+          "localDate": "2026-12-06",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-a390d208714efc52b615f2a7",
+          "startsAt": "2027-01-15T11:30:00.000Z",
+          "localDate": "2027-01-15",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-fd869f8f3f723468dd65b769",
+          "startsAt": "2027-01-16T06:30:00.000Z",
+          "localDate": "2027-01-16",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-8971c4a3bd8c15ffe49192e4",
+          "startsAt": "2027-01-16T11:30:00.000Z",
+          "localDate": "2027-01-16",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-f5511695c9a67a01850b989e",
+          "startsAt": "2027-01-17T06:30:00.000Z",
+          "localDate": "2027-01-17",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-972364f9f886b2988754d29b",
+          "startsAt": "2027-01-22T11:30:00.000Z",
+          "localDate": "2027-01-22",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-57f476a194e4fa827395294c",
+          "startsAt": "2027-01-23T06:30:00.000Z",
+          "localDate": "2027-01-23",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-8668e5774d7fad51fb7fb687",
+          "startsAt": "2027-01-23T11:30:00.000Z",
+          "localDate": "2027-01-23",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        },
+        {
+          "id": "session-2fe2e6f556f3bafcac228b3f",
+          "startsAt": "2027-01-24T06:30:00.000Z",
+          "localDate": "2027-01-24",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:27c1e7e3b8611b7a695d"
+          ]
+        }
+      ],
+      "salePhases": [
+        {
+          "id": "phase-4a65d3043fbfa9e24710350b",
+          "kind": "announced",
+          "label": "平台起售時間（資格待核實）",
+          "startsAt": "2026-06-30T04:00:00.000Z",
+          "endsAt": "2027-01-24T09:10:00.000Z",
+          "eligibility": "資格未核實",
+          "appliesToSessionIds": [
+            "session-f530b208a751fa8ded94f6f5",
+            "session-222a60bd34677761477f709c",
+            "session-bd121932acd2f371ce12ed9e",
+            "session-35bae2ffdcebc83cd9d4dd44",
+            "session-f889469457a76ba96fa88000",
+            "session-e799f6f6890a231c401e63f7",
+            "session-c16bf18287e9ac0f4599112d",
+            "session-0ebe0f1ab3550dee524febd3",
+            "session-a390d208714efc52b615f2a7",
+            "session-fd869f8f3f723468dd65b769",
+            "session-8971c4a3bd8c15ffe49192e4",
+            "session-f5511695c9a67a01850b989e",
+            "session-972364f9f886b2988754d29b",
+            "session-57f476a194e4fa827395294c",
+            "session-8668e5774d7fad51fb7fb687",
+            "session-2fe2e6f556f3bafcac228b3f"
+          ],
+          "scope": "explicit-sessions",
+          "status": "announced",
+          "precision": "minute",
+          "claims": [
+            {
+              "id": "claim-8efdc998abbd791fc7af5ca9",
+              "sourceRecordId": "opentix:27c1e7e3b8611b7a695d",
+              "sourcePhaseId": "07c39a7aac77456a84f0",
+              "sourceUrl": "https://www.opentix.life/event/2070074346117287937",
+              "evidenceText": "offers.availabilityStarts=2026-06-30T12:00:00; validFrom=2026-06-30T12:00:00",
+              "fetchedAt": "2026-11-01T16:17:31.937Z",
+              "label": "平台起售時間（資格待核實）",
+              "kind": "announced",
+              "status": "announced",
+              "stale": false,
+              "startsAt": "2026-06-30T04:00:00.000Z",
+              "endsAt": "2027-01-24T09:10:00.000Z",
+              "eligibility": "資格未核實",
+              "appliesToSessionStartsAt": [
+                "2026-11-13T11:30:00.000Z",
+                "2026-11-14T06:30:00.000Z",
+                "2026-11-14T11:30:00.000Z",
+                "2026-11-15T06:30:00.000Z",
+                "2026-12-04T11:30:00.000Z",
+                "2026-12-05T06:30:00.000Z",
+                "2026-12-05T11:30:00.000Z",
+                "2026-12-06T06:30:00.000Z",
+                "2027-01-15T11:30:00.000Z",
+                "2027-01-16T06:30:00.000Z",
+                "2027-01-16T11:30:00.000Z",
+                "2027-01-17T06:30:00.000Z",
+                "2027-01-22T11:30:00.000Z",
+                "2027-01-23T06:30:00.000Z",
+                "2027-01-23T11:30:00.000Z",
+                "2027-01-24T06:30:00.000Z"
+              ],
+              "precision": "minute",
+              "previousStartsAt": null
+            }
+          ]
+        }
+      ],
+      "unresolvedEvidence": [],
+      "sources": [
+        {
+          "recordId": "opentix:27c1e7e3b8611b7a695d",
+          "sourceId": "opentix",
+          "url": "https://www.opentix.life/event/2070074346117287937",
+          "title": "吳念真國民戲劇《人間條件三》台北上午零時",
+          "venue": "衛武營國家藝術文化中心歌劇院",
+          "eventAt": "2026-11-13T11:30:00.000Z",
+          "eventDateText": null,
+          "fetchedAt": "2026-11-01T16:17:31.937Z",
+          "lastVerifiedAt": "2026-11-01T16:17:31.937Z",
           "status": "published",
           "stale": false
         }
@@ -6107,7 +6454,7 @@
               "sourcePhaseId": "c4b474dae254285a67fe",
               "sourceUrl": "https://www.livenation.com.tw/event/-%E8%A1%9D%E7%AA%81%E7%9A%84%E6%84%8F%E7%BE%A9_mastering-%E6%BA%AB%E5%AE%A4%E9%9B%9C%E8%8D%89%E5%B0%88%E8%BC%AF%E7%99%BC%E7%89%87%E6%9C%80%E5%A4%A7%E5%A0%B4-taipei-tickets-edp1704530",
               "evidenceText": "➤ 全面開賣 2026/10/19 12PM",
-              "fetchedAt": "2026-11-01T15:17:21.848Z",
+              "fetchedAt": "2026-11-01T16:17:20.386Z",
               "label": "全面開賣",
               "kind": "general",
               "status": "announced",
@@ -6151,8 +6498,8 @@
           "venue": "Legacy TERA",
           "eventAt": null,
           "eventDateText": "2027/1/29",
-          "fetchedAt": "2026-11-01T15:17:21.848Z",
-          "lastVerifiedAt": "2026-11-01T15:17:21.848Z",
+          "fetchedAt": "2026-11-01T16:17:20.386Z",
+          "lastVerifiedAt": "2026-11-01T16:17:20.386Z",
           "status": "published",
           "stale": false
         },
@@ -6575,7 +6922,7 @@
               "sourcePhaseId": "49f9a65914284f16be1a",
               "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
               "evidenceText": "藝人官方預售 On sale: 2026年11月2日週一 上午10:00",
-              "fetchedAt": "2026-11-01T15:17:18.824Z",
+              "fetchedAt": "2026-11-01T16:17:16.583Z",
               "label": "藝人官方預售",
               "kind": "fan",
               "status": "announced",
@@ -6607,7 +6954,7 @@
               "sourcePhaseId": "30e50a6304960f02c977",
               "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
               "evidenceText": "➤ 玉山或星展萬事達卡預售票 (僅限玉山或星展萬事達卡信用卡與簽帳金融卡付款） 2026/11/3 10AM – 2026/11/4 10AM",
-              "fetchedAt": "2026-11-01T15:17:18.824Z",
+              "fetchedAt": "2026-11-01T16:17:16.583Z",
               "label": "玉山或星展萬事達卡預售票",
               "kind": "card",
               "status": "announced",
@@ -6639,7 +6986,7 @@
               "sourcePhaseId": "9bc253c5c42e401b0266",
               "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
               "evidenceText": "Live Nation會員預售 On sale: 2026年11月4日週三 下午12:00",
-              "fetchedAt": "2026-11-01T15:17:18.824Z",
+              "fetchedAt": "2026-11-01T16:17:16.583Z",
               "label": "Live Nation會員預售",
               "kind": "member",
               "status": "announced",
@@ -6671,7 +7018,7 @@
               "sourcePhaseId": "2710e07079c6736058d1",
               "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
               "evidenceText": "全面開賣 On sale: 2026年11月5日週四 下午12:00",
-              "fetchedAt": "2026-11-01T15:17:18.824Z",
+              "fetchedAt": "2026-11-01T16:17:16.583Z",
               "label": "全面開賣",
               "kind": "general",
               "status": "announced",
@@ -6696,8 +7043,8 @@
           "venue": "台北南港展覽館",
           "eventAt": null,
           "eventDateText": "2027/5/22",
-          "fetchedAt": "2026-11-01T15:17:18.824Z",
-          "lastVerifiedAt": "2026-11-01T15:17:18.824Z",
+          "fetchedAt": "2026-11-01T16:17:16.583Z",
+          "lastVerifiedAt": "2026-11-01T16:17:16.583Z",
           "status": "published",
           "stale": false
         }
@@ -7028,7 +7375,7 @@
               "sourcePhaseId": "65264dfafeff1758c913",
               "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
               "evidenceText": "➤ 藝人官方預售 2026/10/12 10AM - 2026/10/13 10AM",
-              "fetchedAt": "2026-11-01T15:17:23.272Z",
+              "fetchedAt": "2026-11-01T16:17:21.148Z",
               "label": "藝人官方預售",
               "kind": "fan",
               "status": "announced",
@@ -7060,7 +7407,7 @@
               "sourcePhaseId": "61bb550d12a233ec4184",
               "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
               "evidenceText": "➤ 玉山或星展萬事達卡預售票 (僅限玉山或星展萬事達卡信用卡與簽帳金融卡付款） 2026/10/13 12PM",
-              "fetchedAt": "2026-11-01T15:17:23.272Z",
+              "fetchedAt": "2026-11-01T16:17:21.148Z",
               "label": "玉山或星展萬事達卡預售票 (僅限玉山或星展萬事達卡信用卡與簽帳金融卡付款）",
               "kind": "card",
               "status": "announced",
@@ -7092,7 +7439,7 @@
               "sourcePhaseId": "3b85aec26c8ed1872b8a",
               "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
               "evidenceText": "➤ Live Nation會員預售 2026/10/14 11AM",
-              "fetchedAt": "2026-11-01T15:17:23.272Z",
+              "fetchedAt": "2026-11-01T16:17:21.148Z",
               "label": "Live Nation Taiwan會員預售",
               "kind": "member",
               "status": "announced",
@@ -7124,7 +7471,7 @@
               "sourcePhaseId": "e509c0337d9afb4d3895",
               "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
               "evidenceText": "➤ 全面開賣 2026/10/15 11AM",
-              "fetchedAt": "2026-11-01T15:17:23.272Z",
+              "fetchedAt": "2026-11-01T16:17:21.148Z",
               "label": "拓元售票系統 全面開賣",
               "kind": "general",
               "status": "announced",
@@ -7168,8 +7515,8 @@
           "venue": "高雄流行音樂中心",
           "eventAt": null,
           "eventDateText": "2027/4/11",
-          "fetchedAt": "2026-11-01T15:17:23.272Z",
-          "lastVerifiedAt": "2026-11-01T15:17:23.272Z",
+          "fetchedAt": "2026-11-01T16:17:21.148Z",
+          "lastVerifiedAt": "2026-11-01T16:17:21.148Z",
           "status": "published",
           "stale": false
         },
@@ -7519,6 +7866,98 @@
           "stale": false
         }
       ]
+    },
+    {
+      "id": "event-f8fbf1ccbf7c984ffdbe499d",
+      "title": "2026秋天藝術節 李貞葳 ✕ 法庫亞．佐坦 ✕ 德國黑森州當代舞團《成為海洋》",
+      "category": "theatre",
+      "venue": "國家戲劇院",
+      "venueTag": null,
+      "sourceRecordIds": [
+        "opentix:6ee9d239880d6baa0cc8"
+      ],
+      "identity": {
+        "scope": "event-program",
+        "decision": "source-record-only",
+        "doesNotAssertSamePerformance": false
+      },
+      "status": "published",
+      "sessions": [
+        {
+          "id": "session-d6140078e2596858742f8b5f",
+          "startsAt": "2026-11-13T11:30:00.000Z",
+          "localDate": "2026-11-13",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:6ee9d239880d6baa0cc8"
+          ]
+        },
+        {
+          "id": "session-4199c553d8eb85fe8c4e201d",
+          "startsAt": "2026-11-14T06:30:00.000Z",
+          "localDate": "2026-11-14",
+          "precision": "instant",
+          "sourceRecordIds": [
+            "opentix:6ee9d239880d6baa0cc8"
+          ]
+        }
+      ],
+      "salePhases": [
+        {
+          "id": "phase-8b6f7198afbb7e4ee1c75dde",
+          "kind": "announced",
+          "label": "平台起售時間（資格待核實）",
+          "startsAt": "2026-08-01T04:00:00.000Z",
+          "endsAt": "2026-11-14T07:30:00.000Z",
+          "eligibility": "資格未核實",
+          "appliesToSessionIds": [
+            "session-d6140078e2596858742f8b5f",
+            "session-4199c553d8eb85fe8c4e201d"
+          ],
+          "scope": "explicit-sessions",
+          "status": "announced",
+          "precision": "minute",
+          "claims": [
+            {
+              "id": "claim-4f63f0964bfd6fa4b736fb5b",
+              "sourceRecordId": "opentix:6ee9d239880d6baa0cc8",
+              "sourcePhaseId": "45dd55a05dbdb2b1fe3f",
+              "sourceUrl": "https://www.opentix.life/event/2071452051433553921",
+              "evidenceText": "offers.availabilityStarts=2026-08-01T12:00:00; validFrom=2026-08-01T12:00:00",
+              "fetchedAt": "2026-11-01T16:17:29.738Z",
+              "label": "平台起售時間（資格待核實）",
+              "kind": "announced",
+              "status": "announced",
+              "stale": false,
+              "startsAt": "2026-08-01T04:00:00.000Z",
+              "endsAt": "2026-11-14T07:30:00.000Z",
+              "eligibility": "資格未核實",
+              "appliesToSessionStartsAt": [
+                "2026-11-13T11:30:00.000Z",
+                "2026-11-14T06:30:00.000Z"
+              ],
+              "precision": "minute",
+              "previousStartsAt": null
+            }
+          ]
+        }
+      ],
+      "unresolvedEvidence": [],
+      "sources": [
+        {
+          "recordId": "opentix:6ee9d239880d6baa0cc8",
+          "sourceId": "opentix",
+          "url": "https://www.opentix.life/event/2071452051433553921",
+          "title": "2026秋天藝術節 李貞葳 ✕ 法庫亞．佐坦 ✕ 德國黑森州當代舞團《成為海洋》",
+          "venue": "國家戲劇院",
+          "eventAt": "2026-11-13T11:30:00.000Z",
+          "eventDateText": null,
+          "fetchedAt": "2026-11-01T16:17:29.738Z",
+          "lastVerifiedAt": "2026-11-01T16:17:29.738Z",
+          "status": "published",
+          "stale": false
+        }
+      ]
     }
   ],
   "identityDecisions": [
@@ -7534,7 +7973,7 @@
           "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
           "targetUrl": "https://tixcraft.com/activity/detail/27_bbdb",
           "evidenceText": "一般售票 拓元售票系統 全面開賣 - 一般售票",
-          "fetchedAt": "2026-11-01T15:17:23.272Z"
+          "fetchedAt": "2026-11-01T16:17:21.148Z"
         }
       ]
     },
@@ -7600,7 +8039,7 @@
           "sourceUrl": "https://www.livenation.com.tw/event/-%E8%A1%9D%E7%AA%81%E7%9A%84%E6%84%8F%E7%BE%A9_mastering-%E6%BA%AB%E5%AE%A4%E9%9B%9C%E8%8D%89%E5%B0%88%E8%BC%AF%E7%99%BC%E7%89%87%E6%9C%80%E5%A4%A7%E5%A0%B4-taipei-tickets-edp1704530",
           "targetUrl": "https://tixcraft.com/activity/detail/27_easyweeds",
           "evidenceText": "一般售票 全面開賣 - 一般售票",
-          "fetchedAt": "2026-11-01T15:17:21.848Z"
+          "fetchedAt": "2026-11-01T16:17:20.386Z"
         }
       ]
     }
