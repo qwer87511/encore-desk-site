@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "attemptedAt": "2026-11-02T08:17:01.437Z",
+  "attemptedAt": "2026-11-02T09:17:01.444Z",
   "outcome": "partial",
-  "snapshotAt": "2026-11-02T08:17:01.437Z",
+  "snapshotAt": "2026-11-02T09:17:01.444Z",
   "stale": false,
   "complete": false,
   "sources": [
     {
       "id": "livenation",
       "status": "unavailable",
-      "attemptedAt": "2026-11-02T08:17:01.437Z",
+      "attemptedAt": "2026-11-02T09:17:01.444Z",
       "lastSuccessfulAt": "2026-11-02T07:17:03.976Z",
       "errors": [
-        "Public source request failed; backoff one hour"
+        "robots.txt 無法確認，暫不抓取此來源"
       ]
     },
     {
       "id": "opentix",
       "status": "partial",
-      "attemptedAt": "2026-11-02T08:17:01.437Z",
-      "lastSuccessfulAt": "2026-11-02T08:17:17.632Z",
+      "attemptedAt": "2026-11-02T09:17:01.444Z",
+      "lastSuccessfulAt": "2026-11-02T09:17:03.741Z",
       "errors": []
     }
   ],
   "purchase": false,
-  "calendarSha256": "9e31f6139e6e3b56458b51f2c345ed08fc4e41d846e15208c5861193d126e337"
+  "calendarSha256": "f103d3fcdc49be05d227823933f2066813628c1330d6e00f3a0d75de7e4d261b"
 }
