@@ -3,9 +3,9 @@
   "contractVersion": 1,
   "timezone": "Asia/Taipei",
   "snapshot": {
-    "generatedAt": "2026-11-02T09:17:01.444Z",
+    "generatedAt": "2026-11-02T13:17:01.453Z",
     "producer": "encore-desk",
-    "sourceSnapshotHash": "4cc099378c4f5ff58798b10439badeeb96ffc29bfc6b8fd9d211780040ce310c",
+    "sourceSnapshotHash": "989a8d9dcba5e632eb5d87ce75d134d31d1d09042ab5bd545195ade1ec02b87f",
     "freshness": "per-source-evidence",
     "complete": false
   },
@@ -102,12 +102,13 @@
         "url": "https://www.livenation.com.tw/",
         "scope": "官方首頁推薦藝人與其台灣演出；非全部主辦",
         "status": "unavailable",
-        "attemptedAt": "2026-11-02T09:17:01.444Z",
-        "lastSuccessfulAt": "2026-11-02T07:17:03.976Z",
-        "discovered": 0,
-        "parsed": 0,
+        "attemptedAt": "2026-11-02T13:17:01.453Z",
+        "lastSuccessfulAt": "2026-11-02T13:17:06.255Z",
+        "discovered": 16,
+        "parsed": 2,
         "errors": [
-          "robots.txt 無法確認，暫不抓取此來源"
+          "已略過 robots 不允許的藝人路徑",
+          "HTTP 503；停止來源，不繞過存取限制"
         ]
       },
       {
@@ -116,11 +117,14 @@
         "url": "https://www.opentix.life/",
         "scope": "官方首頁推薦節目；含戲劇、音樂與親子，非全站",
         "status": "partial",
-        "attemptedAt": "2026-11-02T09:17:01.444Z",
-        "lastSuccessfulAt": "2026-11-02T09:17:03.741Z",
-        "discovered": 65,
-        "parsed": 4,
-        "errors": []
+        "attemptedAt": "2026-11-02T13:17:01.453Z",
+        "lastSuccessfulAt": "2026-11-02T13:17:21.036Z",
+        "discovered": 64,
+        "parsed": 2,
+        "errors": [
+          "Public source request failed; backoff one hour",
+          "HTTP 503；停止來源，不繞過存取限制"
+        ]
       }
     ],
     "limitations": [
@@ -1235,7 +1239,7 @@
         "decision": "source-record-only",
         "doesNotAssertSamePerformance": false
       },
-      "status": "published",
+      "status": "stale",
       "sessions": [
         {
           "id": "session-ab082ed696d1fd6b074dc4a0",
@@ -1279,7 +1283,7 @@
             "session-84f8705cce0fd7965cb90ea8"
           ],
           "scope": "explicit-sessions",
-          "status": "announced",
+          "status": "needs_review",
           "precision": "minute",
           "claims": [
             {
@@ -1292,7 +1296,7 @@
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
-              "stale": false,
+              "stale": true,
               "startsAt": "2026-08-04T04:00:00.000Z",
               "endsAt": "2026-11-29T11:15:00.000Z",
               "eligibility": "資格未核實",
@@ -1320,7 +1324,7 @@
           "fetchedAt": "2026-11-02T09:17:10.929Z",
           "lastVerifiedAt": "2026-11-02T09:17:10.929Z",
           "status": "published",
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -1920,7 +1924,7 @@
               "sourcePhaseId": "2c0b3387c389bb58404c",
               "sourceUrl": "https://www.opentix.life/event/2071531444179013633",
               "evidenceText": "offers.availabilityStarts=2026-09-01T12:00:00; validFrom=2026-09-01T12:00:00",
-              "fetchedAt": "2026-11-02T09:17:08.451Z",
+              "fetchedAt": "2026-11-02T13:17:41.767Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -1948,8 +1952,8 @@
           "venue": "國家音樂廳",
           "eventAt": "2026-11-27T11:30:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-02T09:17:08.451Z",
-          "lastVerifiedAt": "2026-11-02T09:17:08.451Z",
+          "fetchedAt": "2026-11-02T13:17:41.767Z",
+          "lastVerifiedAt": "2026-11-02T13:17:41.767Z",
           "status": "published",
           "stale": false
         }
@@ -3024,7 +3028,7 @@
               "sourcePhaseId": "015b9906a2806c2c4451",
               "sourceUrl": "https://www.opentix.life/event/2107747027374047233",
               "evidenceText": "offers.availabilityStarts=2026-10-13T12:00:00; validFrom=2026-10-13T12:00:00",
-              "fetchedAt": "2026-11-02T09:17:11.832Z",
+              "fetchedAt": "2026-11-02T13:17:23.195Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -3066,8 +3070,8 @@
           "venue": "十鼓文創園區 夢糖劇場",
           "eventAt": "2027-02-06T05:00:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-02T09:17:11.832Z",
-          "lastVerifiedAt": "2026-11-02T09:17:11.832Z",
+          "fetchedAt": "2026-11-02T13:17:23.195Z",
+          "lastVerifiedAt": "2026-11-02T13:17:23.195Z",
           "status": "published",
           "stale": false
         }
@@ -4332,7 +4336,7 @@
           "eligibility": "藝人官方預售",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4341,11 +4345,11 @@
               "sourcePhaseId": "49f9a65914284f16be1a",
               "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
               "evidenceText": "➤ 藝人官方預售 2026/11/2 10AM",
-              "fetchedAt": "2026-11-02T07:17:18.835Z",
+              "fetchedAt": "2026-11-02T13:17:18.837Z",
               "label": "藝人官方預售",
               "kind": "fan",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-11-02T02:00:00.000Z",
               "endsAt": null,
               "eligibility": "藝人官方預售",
@@ -4364,7 +4368,7 @@
           "eligibility": "玉山或星展萬事達卡預售票",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4373,11 +4377,11 @@
               "sourcePhaseId": "30e50a6304960f02c977",
               "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
               "evidenceText": "➤ 玉山或星展萬事達卡預售票 (僅限玉山或星展萬事達卡信用卡與簽帳金融卡付款） 2026/11/3 10AM – 2026/11/4 10AM",
-              "fetchedAt": "2026-11-02T07:17:18.835Z",
+              "fetchedAt": "2026-11-02T13:17:18.837Z",
               "label": "玉山或星展萬事達卡預售票",
               "kind": "card",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-11-03T02:00:00.000Z",
               "endsAt": "2026-11-04T02:00:00.000Z",
               "eligibility": "玉山或星展萬事達卡預售票",
@@ -4396,7 +4400,7 @@
           "eligibility": "Live Nation會員預售",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4405,11 +4409,11 @@
               "sourcePhaseId": "9bc253c5c42e401b0266",
               "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
               "evidenceText": "Live Nation會員預售 On sale: 2026年11月4日週三 下午12:00",
-              "fetchedAt": "2026-11-02T07:17:18.835Z",
+              "fetchedAt": "2026-11-02T13:17:18.837Z",
               "label": "Live Nation會員預售",
               "kind": "member",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-11-04T04:00:00.000Z",
               "endsAt": null,
               "eligibility": "Live Nation會員預售",
@@ -4428,7 +4432,7 @@
           "eligibility": "一般公開售票；仍依官方規定",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4437,11 +4441,11 @@
               "sourcePhaseId": "2710e07079c6736058d1",
               "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
               "evidenceText": "全面開賣 On sale: 2026年11月5日週四 下午12:00",
-              "fetchedAt": "2026-11-02T07:17:18.835Z",
+              "fetchedAt": "2026-11-02T13:17:18.837Z",
               "label": "全面開賣",
               "kind": "general",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-11-05T04:00:00.000Z",
               "endsAt": null,
               "eligibility": "一般公開售票；仍依官方規定",
@@ -4481,10 +4485,10 @@
           "venue": "台北南港展覽館",
           "eventAt": null,
           "eventDateText": "2027/5/22",
-          "fetchedAt": "2026-11-02T07:17:18.835Z",
-          "lastVerifiedAt": "2026-11-02T07:17:18.835Z",
+          "fetchedAt": "2026-11-02T13:17:18.837Z",
+          "lastVerifiedAt": "2026-11-02T13:17:18.837Z",
           "status": "published",
-          "stale": true
+          "stale": false
         },
         {
           "recordId": "tixcraft:4f62c1df2babd40688f3",
@@ -4641,7 +4645,7 @@
         "decision": "source-record-only",
         "doesNotAssertSamePerformance": false
       },
-      "status": "stale",
+      "status": "published",
       "sessions": [
         {
           "id": "session-61f1307cb89751a18e0372cb",
@@ -4663,7 +4667,7 @@
           "eligibility": "EYEKONS Membership Presale Registration｜優先購票登記",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4672,11 +4676,11 @@
               "sourcePhaseId": "24c202f25114ad6325d9",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "➤ EYEKONS Membership Presale Registration｜優先購票登記 2026/10/29 11AM - 2026/11/1 6:59PM",
-              "fetchedAt": "2026-11-02T07:17:14.752Z",
+              "fetchedAt": "2026-11-02T13:17:16.816Z",
               "label": "EYEKONS Membership Presale Registration｜優先購票登記",
               "kind": "registration",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-10-29T03:00:00.000Z",
               "endsAt": "2026-11-01T10:59:00.000Z",
               "eligibility": "EYEKONS Membership Presale Registration｜優先購票登記",
@@ -4695,7 +4699,7 @@
           "eligibility": "EYEKONS Membership Presale｜優先購票",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4704,11 +4708,11 @@
               "sourcePhaseId": "37b18b65fa86586ce410",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "EYEKONS Membership Presale｜優先購票 On sale: 2026年11月10日週二 上午10:00",
-              "fetchedAt": "2026-11-02T07:17:14.752Z",
+              "fetchedAt": "2026-11-02T13:17:16.816Z",
               "label": "EYEKONS Membership Presale｜優先購票",
               "kind": "member",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-11-10T02:00:00.000Z",
               "endsAt": null,
               "eligibility": "EYEKONS Membership Presale｜優先購票",
@@ -4727,7 +4731,7 @@
           "eligibility": "萬事達卡預售票",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4736,11 +4740,11 @@
               "sourcePhaseId": "99e8bad23dd312069c1e",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "➤ 萬事達卡預售票（僅限萬事達卡信用卡與簽帳金融卡付款） 2026/11/11 10AM – 2026/11/12 10AM",
-              "fetchedAt": "2026-11-02T07:17:14.752Z",
+              "fetchedAt": "2026-11-02T13:17:16.816Z",
               "label": "萬事達卡預售票",
               "kind": "card",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-11-11T02:00:00.000Z",
               "endsAt": "2026-11-12T02:00:00.000Z",
               "eligibility": "萬事達卡預售票",
@@ -4759,7 +4763,7 @@
           "eligibility": "KATSEYE.WORLD 藝人官方預售",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4768,11 +4772,11 @@
               "sourcePhaseId": "193f6170b48e773f60c0",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "KATSEYE.WORLD 藝人官方預售 On sale: 2026年11月12日週四 下午12:00",
-              "fetchedAt": "2026-11-02T07:17:14.752Z",
+              "fetchedAt": "2026-11-02T13:17:16.816Z",
               "label": "KATSEYE.WORLD 藝人官方預售",
               "kind": "fan",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-11-12T04:00:00.000Z",
               "endsAt": null,
               "eligibility": "KATSEYE.WORLD 藝人官方預售",
@@ -4791,7 +4795,7 @@
           "eligibility": "萬事達卡精選票",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4800,11 +4804,11 @@
               "sourcePhaseId": "c6d63dd2e5888458262c",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "萬事達卡精選票 On sale: 2026年11月13日週五 下午12:00",
-              "fetchedAt": "2026-11-02T07:17:14.752Z",
+              "fetchedAt": "2026-11-02T13:17:16.816Z",
               "label": "萬事達卡精選票",
               "kind": "card",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-11-13T04:00:00.000Z",
               "endsAt": null,
               "eligibility": "萬事達卡精選票",
@@ -4823,7 +4827,7 @@
           "eligibility": "一般公開售票；仍依官方規定",
           "appliesToSessionIds": [],
           "scope": "unverified",
-          "status": "needs_review",
+          "status": "announced",
           "precision": "minute",
           "claims": [
             {
@@ -4832,11 +4836,11 @@
               "sourcePhaseId": "56da4672e8513ed79ac7",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "拓元售票系統 全面開賣 On sale: 2026年11月13日週五 下午12:00",
-              "fetchedAt": "2026-11-02T07:17:14.752Z",
+              "fetchedAt": "2026-11-02T13:17:16.816Z",
               "label": "拓元售票系統 全面開賣",
               "kind": "general",
               "status": "announced",
-              "stale": true,
+              "stale": false,
               "startsAt": "2026-11-13T04:00:00.000Z",
               "endsAt": null,
               "eligibility": "一般公開售票；仍依官方規定",
@@ -4857,10 +4861,10 @@
           "venue": "桃園會展中心",
           "eventAt": null,
           "eventDateText": "2027/2/14",
-          "fetchedAt": "2026-11-02T07:17:14.752Z",
-          "lastVerifiedAt": "2026-11-02T07:17:14.752Z",
+          "fetchedAt": "2026-11-02T13:17:16.816Z",
+          "lastVerifiedAt": "2026-11-02T13:17:16.816Z",
           "status": "published",
-          "stale": true
+          "stale": false
         }
       ]
     },
@@ -5554,7 +5558,7 @@
         "decision": "source-record-only",
         "doesNotAssertSamePerformance": false
       },
-      "status": "published",
+      "status": "stale",
       "sessions": [
         {
           "id": "session-f530b208a751fa8ded94f6f5",
@@ -5728,7 +5732,7 @@
             "session-2fe2e6f556f3bafcac228b3f"
           ],
           "scope": "explicit-sessions",
-          "status": "announced",
+          "status": "needs_review",
           "precision": "minute",
           "claims": [
             {
@@ -5741,7 +5745,7 @@
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
-              "stale": false,
+              "stale": true,
               "startsAt": "2026-06-30T04:00:00.000Z",
               "endsAt": "2027-01-24T09:10:00.000Z",
               "eligibility": "資格未核實",
@@ -5782,7 +5786,7 @@
           "fetchedAt": "2026-11-02T08:17:21.657Z",
           "lastVerifiedAt": "2026-11-02T08:17:21.657Z",
           "status": "published",
-          "stale": false
+          "stale": true
         }
       ]
     },
@@ -8157,7 +8161,7 @@
           "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
           "targetUrl": "https://tixcraft.com/activity/detail/27_disturbed",
           "evidenceText": "購買票券 藝人官方預售 - 購買票券",
-          "fetchedAt": "2026-11-02T07:17:18.835Z"
+          "fetchedAt": "2026-11-02T13:17:18.837Z"
         }
       ]
     },
