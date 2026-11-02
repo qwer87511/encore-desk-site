@@ -1,26 +1,28 @@
 {
   "schemaVersion": 1,
-  "attemptedAt": "2026-11-02T09:17:01.444Z",
-  "outcome": "partial",
+  "attemptedAt": "2026-11-02T11:17:01.456Z",
+  "outcome": "failed-kept-last-good",
   "snapshotAt": "2026-11-02T09:17:01.444Z",
-  "stale": false,
+  "stale": true,
   "complete": false,
   "sources": [
     {
       "id": "livenation",
       "status": "unavailable",
-      "attemptedAt": "2026-11-02T09:17:01.444Z",
+      "attemptedAt": "2026-11-02T11:17:01.456Z",
       "lastSuccessfulAt": "2026-11-02T07:17:03.976Z",
       "errors": [
-        "robots.txt 無法確認，暫不抓取此來源"
+        "HTTP 503；停止來源，不繞過存取限制"
       ]
     },
     {
       "id": "opentix",
-      "status": "partial",
-      "attemptedAt": "2026-11-02T09:17:01.444Z",
+      "status": "unavailable",
+      "attemptedAt": "2026-11-02T11:17:01.456Z",
       "lastSuccessfulAt": "2026-11-02T09:17:03.741Z",
-      "errors": []
+      "errors": [
+        "HTTP 503；停止來源，不繞過存取限制"
+      ]
     }
   ],
   "purchase": false,

@@ -54,8 +54,8 @@
     },
     {
       "path": "update-status.json",
-      "bytes": 747,
-      "sha256": "dbe7a70bbb2b1e43c486ad516ae572129028e3d27ca4fbbe578d035cb0635b70"
+      "bytes": 829,
+      "sha256": "ba577692dc423720f74dcabd09d6bacb4ce75eeb06ac731fb1790e477125daf1"
     }
   ],
   "snapshotAt": "2026-11-02T09:17:01.444Z",
