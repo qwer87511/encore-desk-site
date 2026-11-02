@@ -3,9 +3,9 @@
   "contractVersion": 1,
   "timezone": "Asia/Taipei",
   "snapshot": {
-    "generatedAt": "2026-11-02T01:17:01.390Z",
+    "generatedAt": "2026-11-02T02:17:01.387Z",
     "producer": "encore-desk",
-    "sourceSnapshotHash": "9229d015c010ac03108e1710a92055919ce783f8161230efd814b6eac22fce2c",
+    "sourceSnapshotHash": "a38fa83ab3b123e63671b7ec802baaff78ebed602a00a43ebac4e6471086658d",
     "freshness": "per-source-evidence",
     "complete": false
   },
@@ -21,7 +21,7 @@
     "description": "官方推薦/公開列表抽樣；非全台完整清單",
     "complete": false,
     "sourceRecordCount": 98,
-    "eventGroupCount": 94,
+    "eventGroupCount": 93,
     "inputClaimCount": 121,
     "distinctPhaseCount": 47,
     "unresolvedClaimCount": 74,
@@ -102,8 +102,8 @@
         "url": "https://www.livenation.com.tw/",
         "scope": "官方首頁推薦藝人與其台灣演出；非全部主辦",
         "status": "partial",
-        "attemptedAt": "2026-11-02T01:17:01.390Z",
-        "lastSuccessfulAt": "2026-11-02T01:17:08.665Z",
+        "attemptedAt": "2026-11-02T02:17:01.387Z",
+        "lastSuccessfulAt": "2026-11-02T02:17:07.791Z",
         "discovered": 4,
         "parsed": 4,
         "errors": [
@@ -115,11 +115,11 @@
         "name": "OPENTIX",
         "url": "https://www.opentix.life/",
         "scope": "官方首頁推薦節目；含戲劇、音樂與親子，非全站",
-        "status": "format-unverified",
-        "attemptedAt": "2026-11-02T01:17:01.390Z",
-        "lastSuccessfulAt": "2026-11-02T01:17:28.546Z",
-        "discovered": 0,
-        "parsed": 0,
+        "status": "partial",
+        "attemptedAt": "2026-11-02T02:17:01.387Z",
+        "lastSuccessfulAt": "2026-11-02T02:17:26.280Z",
+        "discovered": 65,
+        "parsed": 4,
         "errors": []
       }
     ],
@@ -1288,7 +1288,7 @@
               "sourcePhaseId": "65cb9809366560a81adc",
               "sourceUrl": "https://www.opentix.life/event/2076923186045493249",
               "evidenceText": "offers.availabilityStarts=2026-08-04T12:00:00; validFrom=2026-08-04T12:00:00",
-              "fetchedAt": "2026-11-01T22:17:30.148Z",
+              "fetchedAt": "2026-11-02T02:17:33.645Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -1317,8 +1317,8 @@
           "venue": "臺中國家歌劇院中劇院",
           "eventAt": "2026-11-27T10:00:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-01T22:17:30.148Z",
-          "lastVerifiedAt": "2026-11-01T22:17:30.148Z",
+          "fetchedAt": "2026-11-02T02:17:33.645Z",
+          "lastVerifiedAt": "2026-11-02T02:17:33.645Z",
           "status": "published",
           "stale": false
         }
@@ -3024,7 +3024,7 @@
               "sourcePhaseId": "015b9906a2806c2c4451",
               "sourceUrl": "https://www.opentix.life/event/2107747027374047233",
               "evidenceText": "offers.availabilityStarts=2026-10-13T12:00:00; validFrom=2026-10-13T12:00:00",
-              "fetchedAt": "2026-11-01T21:17:26.840Z",
+              "fetchedAt": "2026-11-02T02:17:28.090Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -3066,8 +3066,8 @@
           "venue": "十鼓文創園區 夢糖劇場",
           "eventAt": "2027-02-06T05:00:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-01T21:17:26.840Z",
-          "lastVerifiedAt": "2026-11-01T21:17:26.840Z",
+          "fetchedAt": "2026-11-02T02:17:28.090Z",
+          "lastVerifiedAt": "2026-11-02T02:17:28.090Z",
           "status": "published",
           "stale": false
         }
@@ -4287,6 +4287,221 @@
       ]
     },
     {
+      "id": "event-7066d8af4893507fc047a6ed",
+      "title": "Disturbed - The Sickness ＆ the Greatest Hits",
+      "category": "other",
+      "venue": "台北南港展覽館一館4樓",
+      "venueTag": null,
+      "sourceRecordIds": [
+        "livenation:3ad1fbfc4ebfc9c63a51",
+        "tixcraft:4f62c1df2babd40688f3"
+      ],
+      "identity": {
+        "scope": "event-program",
+        "decision": "evidence-merged",
+        "doesNotAssertSamePerformance": true
+      },
+      "status": "published",
+      "sessions": [
+        {
+          "id": "session-767df93c3fdb6689a1fb0fac",
+          "startsAt": null,
+          "localDate": "2027-05-22",
+          "precision": "day",
+          "sourceRecordIds": [
+            "tixcraft:4f62c1df2babd40688f3"
+          ]
+        },
+        {
+          "id": "session-8138845e9f6b59166dc71184",
+          "startsAt": null,
+          "localDate": "2027-05-22",
+          "precision": "day",
+          "sourceRecordIds": [
+            "livenation:3ad1fbfc4ebfc9c63a51"
+          ]
+        }
+      ],
+      "salePhases": [
+        {
+          "id": "phase-3e8a91721e841c13f00f61ef",
+          "kind": "fan",
+          "label": "藝人官方預售",
+          "startsAt": "2026-11-02T02:00:00.000Z",
+          "endsAt": null,
+          "eligibility": "藝人官方預售",
+          "appliesToSessionIds": [],
+          "scope": "unverified",
+          "status": "announced",
+          "precision": "minute",
+          "claims": [
+            {
+              "id": "claim-2e85dab6cb9cafa8811d8437",
+              "sourceRecordId": "livenation:3ad1fbfc4ebfc9c63a51",
+              "sourcePhaseId": "49f9a65914284f16be1a",
+              "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
+              "evidenceText": "➤ 藝人官方預售 2026/11/2 10AM",
+              "fetchedAt": "2026-11-02T02:17:19.956Z",
+              "label": "藝人官方預售",
+              "kind": "fan",
+              "status": "announced",
+              "stale": false,
+              "startsAt": "2026-11-02T02:00:00.000Z",
+              "endsAt": null,
+              "eligibility": "藝人官方預售",
+              "appliesToSessionStartsAt": [],
+              "precision": "minute",
+              "previousStartsAt": null
+            }
+          ]
+        },
+        {
+          "id": "phase-c722aaa7bd0b9c3a948298a8",
+          "kind": "card",
+          "label": "玉山或星展萬事達卡預售票",
+          "startsAt": "2026-11-03T02:00:00.000Z",
+          "endsAt": "2026-11-04T02:00:00.000Z",
+          "eligibility": "玉山或星展萬事達卡預售票",
+          "appliesToSessionIds": [],
+          "scope": "unverified",
+          "status": "announced",
+          "precision": "minute",
+          "claims": [
+            {
+              "id": "claim-b4afef76d6ea0f78db232c09",
+              "sourceRecordId": "livenation:3ad1fbfc4ebfc9c63a51",
+              "sourcePhaseId": "30e50a6304960f02c977",
+              "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
+              "evidenceText": "➤ 玉山或星展萬事達卡預售票 (僅限玉山或星展萬事達卡信用卡與簽帳金融卡付款） 2026/11/3 10AM – 2026/11/4 10AM",
+              "fetchedAt": "2026-11-02T02:17:19.956Z",
+              "label": "玉山或星展萬事達卡預售票",
+              "kind": "card",
+              "status": "announced",
+              "stale": false,
+              "startsAt": "2026-11-03T02:00:00.000Z",
+              "endsAt": "2026-11-04T02:00:00.000Z",
+              "eligibility": "玉山或星展萬事達卡預售票",
+              "appliesToSessionStartsAt": [],
+              "precision": "minute",
+              "previousStartsAt": null
+            }
+          ]
+        },
+        {
+          "id": "phase-81815cd0a7ca69c2c7204a9c",
+          "kind": "member",
+          "label": "Live Nation會員預售",
+          "startsAt": "2026-11-04T04:00:00.000Z",
+          "endsAt": null,
+          "eligibility": "Live Nation會員預售",
+          "appliesToSessionIds": [],
+          "scope": "unverified",
+          "status": "announced",
+          "precision": "minute",
+          "claims": [
+            {
+              "id": "claim-f82712a75b3a158b6566e72c",
+              "sourceRecordId": "livenation:3ad1fbfc4ebfc9c63a51",
+              "sourcePhaseId": "9bc253c5c42e401b0266",
+              "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
+              "evidenceText": "Live Nation會員預售 On sale: 2026年11月4日週三 下午12:00",
+              "fetchedAt": "2026-11-02T02:17:19.956Z",
+              "label": "Live Nation會員預售",
+              "kind": "member",
+              "status": "announced",
+              "stale": false,
+              "startsAt": "2026-11-04T04:00:00.000Z",
+              "endsAt": null,
+              "eligibility": "Live Nation會員預售",
+              "appliesToSessionStartsAt": [],
+              "precision": "minute",
+              "previousStartsAt": null
+            }
+          ]
+        },
+        {
+          "id": "phase-5fe8f8f34aae5f0b10264f5e",
+          "kind": "general",
+          "label": "全面開賣",
+          "startsAt": "2026-11-05T04:00:00.000Z",
+          "endsAt": null,
+          "eligibility": "一般公開售票；仍依官方規定",
+          "appliesToSessionIds": [],
+          "scope": "unverified",
+          "status": "announced",
+          "precision": "minute",
+          "claims": [
+            {
+              "id": "claim-a3e6cb9f80db6fc916766065",
+              "sourceRecordId": "livenation:3ad1fbfc4ebfc9c63a51",
+              "sourcePhaseId": "2710e07079c6736058d1",
+              "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
+              "evidenceText": "全面開賣 On sale: 2026年11月5日週四 下午12:00",
+              "fetchedAt": "2026-11-02T02:17:19.956Z",
+              "label": "全面開賣",
+              "kind": "general",
+              "status": "announced",
+              "stale": false,
+              "startsAt": "2026-11-05T04:00:00.000Z",
+              "endsAt": null,
+              "eligibility": "一般公開售票；仍依官方規定",
+              "appliesToSessionStartsAt": [],
+              "precision": "minute",
+              "previousStartsAt": null
+            }
+          ]
+        }
+      ],
+      "unresolvedEvidence": [
+        {
+          "id": "claim-c9dfa0c95a7ac7c430605b59",
+          "sourceRecordId": "tixcraft:4f62c1df2babd40688f3",
+          "sourcePhaseId": "bf58042e0402cc328ee0",
+          "sourceUrl": "https://tixcraft.com/activity/detail/27_disturbed",
+          "evidenceText": "列表只提供活動日期：2027/05/22 (六)",
+          "fetchedAt": "2026-10-29T15:02:14.251Z",
+          "label": "開賣時間待核實",
+          "kind": "announced",
+          "status": "unknown",
+          "stale": false,
+          "startsAt": null,
+          "endsAt": null,
+          "eligibility": "資格未核實",
+          "appliesToSessionStartsAt": [],
+          "precision": "unknown",
+          "previousStartsAt": null
+        }
+      ],
+      "sources": [
+        {
+          "recordId": "livenation:3ad1fbfc4ebfc9c63a51",
+          "sourceId": "livenation",
+          "url": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
+          "title": "Disturbed - The Sickness & the Greatest Hits",
+          "venue": "台北南港展覽館",
+          "eventAt": null,
+          "eventDateText": "2027/5/22",
+          "fetchedAt": "2026-11-02T02:17:19.956Z",
+          "lastVerifiedAt": "2026-11-02T02:17:19.956Z",
+          "status": "published",
+          "stale": false
+        },
+        {
+          "recordId": "tixcraft:4f62c1df2babd40688f3",
+          "sourceId": "tixcraft",
+          "url": "https://tixcraft.com/activity/detail/27_disturbed",
+          "title": "Disturbed - The Sickness ＆ the Greatest Hits",
+          "venue": "台北南港展覽館一館4樓",
+          "eventAt": null,
+          "eventDateText": "2027/05/22 (六)",
+          "fetchedAt": "2026-10-29T15:02:14.251Z",
+          "lastVerifiedAt": "2026-10-29T15:02:14.251Z",
+          "status": "published",
+          "stale": false
+        }
+      ]
+    },
+    {
       "id": "event-7314e1f6fca44f53f1a4002f",
       "title": "T.O.P PRE-STUDIO 2026 in KAOHSIUNG",
       "category": "other",
@@ -4457,7 +4672,7 @@
               "sourcePhaseId": "24c202f25114ad6325d9",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "➤ EYEKONS Membership Presale Registration｜優先購票登記 2026/10/29 11AM - 2026/11/1 6:59PM",
-              "fetchedAt": "2026-11-02T01:17:20.190Z",
+              "fetchedAt": "2026-11-02T02:17:17.959Z",
               "label": "EYEKONS Membership Presale Registration｜優先購票登記",
               "kind": "registration",
               "status": "announced",
@@ -4489,7 +4704,7 @@
               "sourcePhaseId": "37b18b65fa86586ce410",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "EYEKONS Membership Presale｜優先購票 On sale: 2026年11月10日週二 上午10:00",
-              "fetchedAt": "2026-11-02T01:17:20.190Z",
+              "fetchedAt": "2026-11-02T02:17:17.959Z",
               "label": "EYEKONS Membership Presale｜優先購票",
               "kind": "member",
               "status": "announced",
@@ -4521,7 +4736,7 @@
               "sourcePhaseId": "99e8bad23dd312069c1e",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "➤ 萬事達卡預售票（僅限萬事達卡信用卡與簽帳金融卡付款） 2026/11/11 10AM – 2026/11/12 10AM",
-              "fetchedAt": "2026-11-02T01:17:20.190Z",
+              "fetchedAt": "2026-11-02T02:17:17.959Z",
               "label": "萬事達卡預售票",
               "kind": "card",
               "status": "announced",
@@ -4553,7 +4768,7 @@
               "sourcePhaseId": "193f6170b48e773f60c0",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "KATSEYE.WORLD 藝人官方預售 On sale: 2026年11月12日週四 下午12:00",
-              "fetchedAt": "2026-11-02T01:17:20.190Z",
+              "fetchedAt": "2026-11-02T02:17:17.959Z",
               "label": "KATSEYE.WORLD 藝人官方預售",
               "kind": "fan",
               "status": "announced",
@@ -4585,7 +4800,7 @@
               "sourcePhaseId": "c6d63dd2e5888458262c",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "萬事達卡精選票 On sale: 2026年11月13日週五 下午12:00",
-              "fetchedAt": "2026-11-02T01:17:20.190Z",
+              "fetchedAt": "2026-11-02T02:17:17.959Z",
               "label": "萬事達卡精選票",
               "kind": "card",
               "status": "announced",
@@ -4617,7 +4832,7 @@
               "sourcePhaseId": "56da4672e8513ed79ac7",
               "sourceUrl": "https://www.livenation.com.tw/event/katseye-the-wildworld-tour-taoyuan-tickets-edp1708940",
               "evidenceText": "拓元售票系統 全面開賣 On sale: 2026年11月13日週五 下午12:00",
-              "fetchedAt": "2026-11-02T01:17:20.190Z",
+              "fetchedAt": "2026-11-02T02:17:17.959Z",
               "label": "拓元售票系統 全面開賣",
               "kind": "general",
               "status": "announced",
@@ -4642,8 +4857,8 @@
           "venue": "桃園會展中心",
           "eventAt": null,
           "eventDateText": "2027/2/14",
-          "fetchedAt": "2026-11-02T01:17:20.190Z",
-          "lastVerifiedAt": "2026-11-02T01:17:20.190Z",
+          "fetchedAt": "2026-11-02T02:17:17.959Z",
+          "lastVerifiedAt": "2026-11-02T02:17:17.959Z",
           "status": "published",
           "stale": false
         }
@@ -5522,7 +5737,7 @@
               "sourcePhaseId": "07c39a7aac77456a84f0",
               "sourceUrl": "https://www.opentix.life/event/2070074346117287937",
               "evidenceText": "offers.availabilityStarts=2026-06-30T12:00:00; validFrom=2026-06-30T12:00:00",
-              "fetchedAt": "2026-11-01T22:17:35.181Z",
+              "fetchedAt": "2026-11-02T02:17:30.584Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -5564,8 +5779,8 @@
           "venue": "衛武營國家藝術文化中心歌劇院",
           "eventAt": "2026-11-13T11:30:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-01T22:17:35.181Z",
-          "lastVerifiedAt": "2026-11-01T22:17:35.181Z",
+          "fetchedAt": "2026-11-02T02:17:30.584Z",
+          "lastVerifiedAt": "2026-11-02T02:17:30.584Z",
           "status": "published",
           "stale": false
         }
@@ -5878,69 +6093,6 @@
           "venue": "高雄國家體育場(世運主場館)",
           "eventAt": null,
           "eventDateText": "2026/12/05 (六) ~ 2026/12/06 (日)",
-          "fetchedAt": "2026-10-29T15:02:14.251Z",
-          "lastVerifiedAt": "2026-10-29T15:02:14.251Z",
-          "status": "published",
-          "stale": false
-        }
-      ]
-    },
-    {
-      "id": "event-b332d18553412ceaddd98458",
-      "title": "Disturbed - The Sickness ＆ the Greatest Hits",
-      "category": "other",
-      "venue": "台北南港展覽館一館4樓",
-      "venueTag": null,
-      "sourceRecordIds": [
-        "tixcraft:4f62c1df2babd40688f3"
-      ],
-      "identity": {
-        "scope": "event-program",
-        "decision": "source-record-only",
-        "doesNotAssertSamePerformance": false
-      },
-      "status": "published",
-      "sessions": [
-        {
-          "id": "session-881b1af2f26b4008bc81ec24",
-          "startsAt": null,
-          "localDate": "2027-05-22",
-          "precision": "day",
-          "sourceRecordIds": [
-            "tixcraft:4f62c1df2babd40688f3"
-          ]
-        }
-      ],
-      "salePhases": [],
-      "unresolvedEvidence": [
-        {
-          "id": "claim-c9dfa0c95a7ac7c430605b59",
-          "sourceRecordId": "tixcraft:4f62c1df2babd40688f3",
-          "sourcePhaseId": "bf58042e0402cc328ee0",
-          "sourceUrl": "https://tixcraft.com/activity/detail/27_disturbed",
-          "evidenceText": "列表只提供活動日期：2027/05/22 (六)",
-          "fetchedAt": "2026-10-29T15:02:14.251Z",
-          "label": "開賣時間待核實",
-          "kind": "announced",
-          "status": "unknown",
-          "stale": false,
-          "startsAt": null,
-          "endsAt": null,
-          "eligibility": "資格未核實",
-          "appliesToSessionStartsAt": [],
-          "precision": "unknown",
-          "previousStartsAt": null
-        }
-      ],
-      "sources": [
-        {
-          "recordId": "tixcraft:4f62c1df2babd40688f3",
-          "sourceId": "tixcraft",
-          "url": "https://tixcraft.com/activity/detail/27_disturbed",
-          "title": "Disturbed - The Sickness ＆ the Greatest Hits",
-          "venue": "台北南港展覽館一館4樓",
-          "eventAt": null,
-          "eventDateText": "2027/05/22 (六)",
           "fetchedAt": "2026-10-29T15:02:14.251Z",
           "lastVerifiedAt": "2026-10-29T15:02:14.251Z",
           "status": "published",
@@ -6627,7 +6779,7 @@
               "sourcePhaseId": "c4b474dae254285a67fe",
               "sourceUrl": "https://www.livenation.com.tw/event/-%E8%A1%9D%E7%AA%81%E7%9A%84%E6%84%8F%E7%BE%A9_mastering-%E6%BA%AB%E5%AE%A4%E9%9B%9C%E8%8D%89%E5%B0%88%E8%BC%AF%E7%99%BC%E7%89%87%E6%9C%80%E5%A4%A7%E5%A0%B4-taipei-tickets-edp1704530",
               "evidenceText": "➤ 全面開賣 2026/10/19 12PM",
-              "fetchedAt": "2026-11-02T01:17:23.348Z",
+              "fetchedAt": "2026-11-02T02:17:21.778Z",
               "label": "全面開賣",
               "kind": "general",
               "status": "announced",
@@ -6671,8 +6823,8 @@
           "venue": "Legacy TERA",
           "eventAt": null,
           "eventDateText": "2027/1/29",
-          "fetchedAt": "2026-11-02T01:17:23.348Z",
-          "lastVerifiedAt": "2026-11-02T01:17:23.348Z",
+          "fetchedAt": "2026-11-02T02:17:21.778Z",
+          "lastVerifiedAt": "2026-11-02T02:17:21.778Z",
           "status": "published",
           "stale": false
         },
@@ -7051,179 +7203,6 @@
       ]
     },
     {
-      "id": "event-d7a03a2ad9e79efa265c7cfa",
-      "title": "Disturbed - The Sickness & the Greatest Hits",
-      "category": "other",
-      "venue": "台北南港展覽館",
-      "venueTag": null,
-      "sourceRecordIds": [
-        "livenation:3ad1fbfc4ebfc9c63a51"
-      ],
-      "identity": {
-        "scope": "event-program",
-        "decision": "source-record-only",
-        "doesNotAssertSamePerformance": false
-      },
-      "status": "published",
-      "sessions": [
-        {
-          "id": "session-65a2993c44f7bb1ace5e4bfd",
-          "startsAt": null,
-          "localDate": "2027-05-22",
-          "precision": "day",
-          "sourceRecordIds": [
-            "livenation:3ad1fbfc4ebfc9c63a51"
-          ]
-        }
-      ],
-      "salePhases": [
-        {
-          "id": "phase-8836b2ccfa096176e2862d58",
-          "kind": "fan",
-          "label": "藝人官方預售",
-          "startsAt": "2026-11-02T02:00:00.000Z",
-          "endsAt": null,
-          "eligibility": "藝人官方預售",
-          "appliesToSessionIds": [],
-          "scope": "unverified",
-          "status": "announced",
-          "precision": "minute",
-          "claims": [
-            {
-              "id": "claim-2e85dab6cb9cafa8811d8437",
-              "sourceRecordId": "livenation:3ad1fbfc4ebfc9c63a51",
-              "sourcePhaseId": "49f9a65914284f16be1a",
-              "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
-              "evidenceText": "藝人官方預售 On sale: 2026年11月2日週一 上午10:00",
-              "fetchedAt": "2026-11-02T01:17:22.112Z",
-              "label": "藝人官方預售",
-              "kind": "fan",
-              "status": "announced",
-              "stale": false,
-              "startsAt": "2026-11-02T02:00:00.000Z",
-              "endsAt": null,
-              "eligibility": "藝人官方預售",
-              "appliesToSessionStartsAt": [],
-              "precision": "minute",
-              "previousStartsAt": null
-            }
-          ]
-        },
-        {
-          "id": "phase-569fcd852e0d9f874b453a32",
-          "kind": "card",
-          "label": "玉山或星展萬事達卡預售票",
-          "startsAt": "2026-11-03T02:00:00.000Z",
-          "endsAt": "2026-11-04T02:00:00.000Z",
-          "eligibility": "玉山或星展萬事達卡預售票",
-          "appliesToSessionIds": [],
-          "scope": "unverified",
-          "status": "announced",
-          "precision": "minute",
-          "claims": [
-            {
-              "id": "claim-b4afef76d6ea0f78db232c09",
-              "sourceRecordId": "livenation:3ad1fbfc4ebfc9c63a51",
-              "sourcePhaseId": "30e50a6304960f02c977",
-              "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
-              "evidenceText": "➤ 玉山或星展萬事達卡預售票 (僅限玉山或星展萬事達卡信用卡與簽帳金融卡付款） 2026/11/3 10AM – 2026/11/4 10AM",
-              "fetchedAt": "2026-11-02T01:17:22.112Z",
-              "label": "玉山或星展萬事達卡預售票",
-              "kind": "card",
-              "status": "announced",
-              "stale": false,
-              "startsAt": "2026-11-03T02:00:00.000Z",
-              "endsAt": "2026-11-04T02:00:00.000Z",
-              "eligibility": "玉山或星展萬事達卡預售票",
-              "appliesToSessionStartsAt": [],
-              "precision": "minute",
-              "previousStartsAt": null
-            }
-          ]
-        },
-        {
-          "id": "phase-b7d53f81f79dee077a62cc0b",
-          "kind": "member",
-          "label": "Live Nation會員預售",
-          "startsAt": "2026-11-04T04:00:00.000Z",
-          "endsAt": null,
-          "eligibility": "Live Nation會員預售",
-          "appliesToSessionIds": [],
-          "scope": "unverified",
-          "status": "announced",
-          "precision": "minute",
-          "claims": [
-            {
-              "id": "claim-f82712a75b3a158b6566e72c",
-              "sourceRecordId": "livenation:3ad1fbfc4ebfc9c63a51",
-              "sourcePhaseId": "9bc253c5c42e401b0266",
-              "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
-              "evidenceText": "Live Nation會員預售 On sale: 2026年11月4日週三 下午12:00",
-              "fetchedAt": "2026-11-02T01:17:22.112Z",
-              "label": "Live Nation會員預售",
-              "kind": "member",
-              "status": "announced",
-              "stale": false,
-              "startsAt": "2026-11-04T04:00:00.000Z",
-              "endsAt": null,
-              "eligibility": "Live Nation會員預售",
-              "appliesToSessionStartsAt": [],
-              "precision": "minute",
-              "previousStartsAt": null
-            }
-          ]
-        },
-        {
-          "id": "phase-fb5d45236f20a935b0c1ed4d",
-          "kind": "general",
-          "label": "全面開賣",
-          "startsAt": "2026-11-05T04:00:00.000Z",
-          "endsAt": null,
-          "eligibility": "一般公開售票；仍依官方規定",
-          "appliesToSessionIds": [],
-          "scope": "unverified",
-          "status": "announced",
-          "precision": "minute",
-          "claims": [
-            {
-              "id": "claim-a3e6cb9f80db6fc916766065",
-              "sourceRecordId": "livenation:3ad1fbfc4ebfc9c63a51",
-              "sourcePhaseId": "2710e07079c6736058d1",
-              "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
-              "evidenceText": "全面開賣 On sale: 2026年11月5日週四 下午12:00",
-              "fetchedAt": "2026-11-02T01:17:22.112Z",
-              "label": "全面開賣",
-              "kind": "general",
-              "status": "announced",
-              "stale": false,
-              "startsAt": "2026-11-05T04:00:00.000Z",
-              "endsAt": null,
-              "eligibility": "一般公開售票；仍依官方規定",
-              "appliesToSessionStartsAt": [],
-              "precision": "minute",
-              "previousStartsAt": null
-            }
-          ]
-        }
-      ],
-      "unresolvedEvidence": [],
-      "sources": [
-        {
-          "recordId": "livenation:3ad1fbfc4ebfc9c63a51",
-          "sourceId": "livenation",
-          "url": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
-          "title": "Disturbed - The Sickness & the Greatest Hits",
-          "venue": "台北南港展覽館",
-          "eventAt": null,
-          "eventDateText": "2027/5/22",
-          "fetchedAt": "2026-11-02T01:17:22.112Z",
-          "lastVerifiedAt": "2026-11-02T01:17:22.112Z",
-          "status": "published",
-          "stale": false
-        }
-      ]
-    },
-    {
       "id": "event-d8ad51ca86135fffdb63f7ba",
       "title": "【ESO 2026】一夜，從百老匯到好萊塢──后正宇與ESO",
       "category": "music",
@@ -7548,7 +7527,7 @@
               "sourcePhaseId": "65264dfafeff1758c913",
               "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
               "evidenceText": "➤ 藝人官方預售 2026/10/12 10AM - 2026/10/13 10AM",
-              "fetchedAt": "2026-11-02T01:17:26.361Z",
+              "fetchedAt": "2026-11-02T02:17:23.966Z",
               "label": "藝人官方預售",
               "kind": "fan",
               "status": "announced",
@@ -7580,7 +7559,7 @@
               "sourcePhaseId": "61bb550d12a233ec4184",
               "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
               "evidenceText": "➤ 玉山或星展萬事達卡預售票 (僅限玉山或星展萬事達卡信用卡與簽帳金融卡付款） 2026/10/13 12PM",
-              "fetchedAt": "2026-11-02T01:17:26.361Z",
+              "fetchedAt": "2026-11-02T02:17:23.966Z",
               "label": "玉山或星展萬事達卡預售票 (僅限玉山或星展萬事達卡信用卡與簽帳金融卡付款）",
               "kind": "card",
               "status": "announced",
@@ -7612,7 +7591,7 @@
               "sourcePhaseId": "3b85aec26c8ed1872b8a",
               "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
               "evidenceText": "➤ Live Nation會員預售 2026/10/14 11AM",
-              "fetchedAt": "2026-11-02T01:17:26.361Z",
+              "fetchedAt": "2026-11-02T02:17:23.966Z",
               "label": "Live Nation Taiwan會員預售",
               "kind": "member",
               "status": "announced",
@@ -7644,7 +7623,7 @@
               "sourcePhaseId": "e509c0337d9afb4d3895",
               "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
               "evidenceText": "➤ 全面開賣 2026/10/15 11AM",
-              "fetchedAt": "2026-11-02T01:17:26.361Z",
+              "fetchedAt": "2026-11-02T02:17:23.966Z",
               "label": "拓元售票系統 全面開賣",
               "kind": "general",
               "status": "announced",
@@ -7688,8 +7667,8 @@
           "venue": "高雄流行音樂中心",
           "eventAt": null,
           "eventDateText": "2027/4/11",
-          "fetchedAt": "2026-11-02T01:17:26.361Z",
-          "lastVerifiedAt": "2026-11-02T01:17:26.361Z",
+          "fetchedAt": "2026-11-02T02:17:23.966Z",
+          "lastVerifiedAt": "2026-11-02T02:17:23.966Z",
           "status": "published",
           "stale": false
         },
@@ -8097,7 +8076,7 @@
               "sourcePhaseId": "45dd55a05dbdb2b1fe3f",
               "sourceUrl": "https://www.opentix.life/event/2071452051433553921",
               "evidenceText": "offers.availabilityStarts=2026-08-01T12:00:00; validFrom=2026-08-01T12:00:00",
-              "fetchedAt": "2026-11-01T20:17:35.302Z",
+              "fetchedAt": "2026-11-02T02:17:34.861Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -8125,8 +8104,8 @@
           "venue": "國家戲劇院",
           "eventAt": "2026-11-13T11:30:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-01T20:17:35.302Z",
-          "lastVerifiedAt": "2026-11-01T20:17:35.302Z",
+          "fetchedAt": "2026-11-02T02:17:34.861Z",
+          "lastVerifiedAt": "2026-11-02T02:17:34.861Z",
           "status": "published",
           "stale": false
         }
@@ -8146,7 +8125,7 @@
           "sourceUrl": "https://www.livenation.com.tw/event/beabadoobee-the-powerlines-tour-kaohsiung-tickets-edp1703196",
           "targetUrl": "https://tixcraft.com/activity/detail/27_bbdb",
           "evidenceText": "一般售票 拓元售票系統 全面開賣 - 一般售票",
-          "fetchedAt": "2026-11-02T01:17:26.361Z"
+          "fetchedAt": "2026-11-02T02:17:23.966Z"
         }
       ]
     },
@@ -8171,9 +8150,16 @@
         "livenation:3ad1fbfc4ebfc9c63a51",
         "tixcraft:4f62c1df2babd40688f3"
       ],
-      "outcome": "review",
-      "reason": "venue-unresolved-or-conflicting",
-      "evidence": []
+      "outcome": "merged",
+      "reason": "official-ticket-link-and-compatible-event-facts",
+      "evidence": [
+        {
+          "sourceUrl": "https://www.livenation.com.tw/event/disturbed-the-sickness-and-the-greatest-hits-taipei-tickets-edp1707920",
+          "targetUrl": "https://tixcraft.com/activity/detail/27_disturbed",
+          "evidenceText": "購買票券 藝人官方預售 - 購買票券",
+          "fetchedAt": "2026-11-02T02:17:19.956Z"
+        }
+      ]
     },
     {
       "recordIds": [
@@ -8212,7 +8198,7 @@
           "sourceUrl": "https://www.livenation.com.tw/event/-%E8%A1%9D%E7%AA%81%E7%9A%84%E6%84%8F%E7%BE%A9_mastering-%E6%BA%AB%E5%AE%A4%E9%9B%9C%E8%8D%89%E5%B0%88%E8%BC%AF%E7%99%BC%E7%89%87%E6%9C%80%E5%A4%A7%E5%A0%B4-taipei-tickets-edp1704530",
           "targetUrl": "https://tixcraft.com/activity/detail/27_easyweeds",
           "evidenceText": "一般售票 全面開賣 - 一般售票",
-          "fetchedAt": "2026-11-02T01:17:23.348Z"
+          "fetchedAt": "2026-11-02T02:17:21.778Z"
         }
       ]
     }

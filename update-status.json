@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "attemptedAt": "2026-11-02T01:17:01.390Z",
+  "attemptedAt": "2026-11-02T02:17:01.387Z",
   "outcome": "partial",
-  "snapshotAt": "2026-11-02T01:17:01.390Z",
+  "snapshotAt": "2026-11-02T02:17:01.387Z",
   "stale": false,
   "complete": false,
   "sources": [
     {
       "id": "livenation",
       "status": "partial",
-      "attemptedAt": "2026-11-02T01:17:01.390Z",
-      "lastSuccessfulAt": "2026-11-02T01:17:08.665Z",
+      "attemptedAt": "2026-11-02T02:17:01.387Z",
+      "lastSuccessfulAt": "2026-11-02T02:17:07.791Z",
       "errors": [
         "已略過 robots 不允許的藝人路徑"
       ]
     },
     {
       "id": "opentix",
-      "status": "format-unverified",
-      "attemptedAt": "2026-11-02T01:17:01.390Z",
-      "lastSuccessfulAt": "2026-11-02T01:17:28.546Z",
+      "status": "partial",
+      "attemptedAt": "2026-11-02T02:17:01.387Z",
+      "lastSuccessfulAt": "2026-11-02T02:17:26.280Z",
       "errors": []
     }
   ],
   "purchase": false,
-  "calendarSha256": "dcc207999793808fdbea1abf5a605ae70eca9b3231686450f4696645ea7a14fb"
+  "calendarSha256": "dc49f778a3942e38bfdee08e3e389f3b44b7499c394d851ca95797e0a37fa521"
 }
