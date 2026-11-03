@@ -3,9 +3,9 @@
   "contractVersion": 1,
   "timezone": "Asia/Taipei",
   "snapshot": {
-    "generatedAt": "2026-11-03T16:17:01.427Z",
+    "generatedAt": "2026-11-03T17:17:01.426Z",
     "producer": "encore-desk",
-    "sourceSnapshotHash": "358f33f69e357a7a9672df719525578d08cf4f0d2d655677a105fbb3ca8d6661",
+    "sourceSnapshotHash": "dca8bfe0e7cdae5e98a1b1fe63710a3f083460cd9bd30cbbd8460d51482f7f31",
     "freshness": "per-source-evidence",
     "complete": false
   },
@@ -102,12 +102,12 @@
         "url": "https://www.livenation.com.tw/",
         "scope": "官方首頁推薦藝人與其台灣演出；非全部主辦",
         "status": "unavailable",
-        "attemptedAt": "2026-11-03T16:17:01.427Z",
+        "attemptedAt": "2026-11-03T17:17:01.426Z",
         "lastSuccessfulAt": "2026-11-03T15:17:03.980Z",
         "discovered": 0,
         "parsed": 0,
         "errors": [
-          "Public source request failed; backoff one hour"
+          "robots.txt 無法確認，暫不抓取此來源"
         ]
       },
       {
@@ -116,8 +116,8 @@
         "url": "https://www.opentix.life/",
         "scope": "官方首頁推薦節目；含戲劇、音樂與親子，非全站",
         "status": "partial",
-        "attemptedAt": "2026-11-03T16:17:01.427Z",
-        "lastSuccessfulAt": "2026-11-03T16:17:21.101Z",
+        "attemptedAt": "2026-11-03T17:17:01.426Z",
+        "lastSuccessfulAt": "2026-11-03T17:17:03.960Z",
         "discovered": 64,
         "parsed": 4,
         "errors": []
@@ -1288,7 +1288,7 @@
               "sourcePhaseId": "65cb9809366560a81adc",
               "sourceUrl": "https://www.opentix.life/event/2076923186045493249",
               "evidenceText": "offers.availabilityStarts=2026-08-04T12:00:00; validFrom=2026-08-04T12:00:00",
-              "fetchedAt": "2026-11-03T16:17:22.262Z",
+              "fetchedAt": "2026-11-03T17:17:10.971Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -1317,8 +1317,8 @@
           "venue": "臺中國家歌劇院中劇院",
           "eventAt": "2026-11-27T10:00:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-03T16:17:22.262Z",
-          "lastVerifiedAt": "2026-11-03T16:17:22.262Z",
+          "fetchedAt": "2026-11-03T17:17:10.971Z",
+          "lastVerifiedAt": "2026-11-03T17:17:10.971Z",
           "status": "published",
           "stale": false
         }
@@ -1920,7 +1920,7 @@
               "sourcePhaseId": "2c0b3387c389bb58404c",
               "sourceUrl": "https://www.opentix.life/event/2071531444179013633",
               "evidenceText": "offers.availabilityStarts=2026-09-01T12:00:00; validFrom=2026-09-01T12:00:00",
-              "fetchedAt": "2026-11-03T16:17:24.059Z",
+              "fetchedAt": "2026-11-03T17:17:11.906Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -1948,8 +1948,8 @@
           "venue": "國家音樂廳",
           "eventAt": "2026-11-27T11:30:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-03T16:17:24.059Z",
-          "lastVerifiedAt": "2026-11-03T16:17:24.059Z",
+          "fetchedAt": "2026-11-03T17:17:11.906Z",
+          "lastVerifiedAt": "2026-11-03T17:17:11.906Z",
           "status": "published",
           "stale": false
         }
@@ -3024,7 +3024,7 @@
               "sourcePhaseId": "015b9906a2806c2c4451",
               "sourceUrl": "https://www.opentix.life/event/2107747027374047233",
               "evidenceText": "offers.availabilityStarts=2026-10-13T12:00:00; validFrom=2026-10-13T12:00:00",
-              "fetchedAt": "2026-11-03T16:17:27.511Z",
+              "fetchedAt": "2026-11-03T17:17:08.754Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -3066,8 +3066,8 @@
           "venue": "十鼓文創園區 夢糖劇場",
           "eventAt": "2027-02-06T05:00:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-03T16:17:27.511Z",
-          "lastVerifiedAt": "2026-11-03T16:17:27.511Z",
+          "fetchedAt": "2026-11-03T17:17:08.754Z",
+          "lastVerifiedAt": "2026-11-03T17:17:08.754Z",
           "status": "published",
           "stale": false
         }
@@ -6429,7 +6429,7 @@
               "sourcePhaseId": "d945a4576e5a32dfdb2b",
               "sourceUrl": "https://www.opentix.life/event/2086778741904691201",
               "evidenceText": "offers.availabilityStarts=2026-09-01T12:00:00; validFrom=2026-09-01T12:00:00",
-              "fetchedAt": "2026-11-03T15:17:32.541Z",
+              "fetchedAt": "2026-11-03T17:17:06.284Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -6456,8 +6456,8 @@
           "venue": "衛武營國家藝術文化中心音樂廳",
           "eventAt": "2026-11-22T06:30:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-03T15:17:32.541Z",
-          "lastVerifiedAt": "2026-11-03T15:17:32.541Z",
+          "fetchedAt": "2026-11-03T17:17:06.284Z",
+          "lastVerifiedAt": "2026-11-03T17:17:06.284Z",
           "status": "published",
           "stale": false
         }
