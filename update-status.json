@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "attemptedAt": "2026-11-03T11:17:01.393Z",
+  "attemptedAt": "2026-11-03T12:17:01.687Z",
   "outcome": "partial",
-  "snapshotAt": "2026-11-03T11:17:01.393Z",
+  "snapshotAt": "2026-11-03T12:17:01.687Z",
   "stale": false,
   "complete": false,
   "sources": [
     {
       "id": "livenation",
       "status": "unavailable",
-      "attemptedAt": "2026-11-03T11:17:01.393Z",
+      "attemptedAt": "2026-11-03T12:17:01.687Z",
       "lastSuccessfulAt": "2026-11-03T08:17:03.971Z",
       "errors": [
         "Public source request failed; backoff one hour"
@@ -18,11 +18,11 @@
     {
       "id": "opentix",
       "status": "partial",
-      "attemptedAt": "2026-11-03T11:17:01.393Z",
-      "lastSuccessfulAt": "2026-11-03T11:17:24.170Z",
+      "attemptedAt": "2026-11-03T12:17:01.687Z",
+      "lastSuccessfulAt": "2026-11-03T12:17:21.321Z",
       "errors": []
     }
   ],
   "purchase": false,
-  "calendarSha256": "413bdb4b9f68e5cee946d087c312873d8985a2663dbff4a58616cee8417a5106"
+  "calendarSha256": "42dc898b2b64af5c3ae37a38f99f05d699e823695c3705e7b437c5f7080e321d"
 }
