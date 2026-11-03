@@ -1,26 +1,28 @@
 {
   "schemaVersion": 1,
-  "attemptedAt": "2026-11-03T00:17:01.343Z",
-  "outcome": "partial",
+  "attemptedAt": "2026-11-03T02:17:01.356Z",
+  "outcome": "failed-kept-last-good",
   "snapshotAt": "2026-11-03T00:17:01.343Z",
-  "stale": false,
+  "stale": true,
   "complete": false,
   "sources": [
     {
       "id": "livenation",
-      "status": "partial",
-      "attemptedAt": "2026-11-03T00:17:01.343Z",
+      "status": "unavailable",
+      "attemptedAt": "2026-11-03T02:17:01.356Z",
       "lastSuccessfulAt": "2026-11-03T00:17:05.074Z",
       "errors": [
-        "已略過 robots 不允許的藝人路徑"
+        "robots.txt 無法確認，暫不抓取此來源"
       ]
     },
     {
       "id": "opentix",
-      "status": "partial",
-      "attemptedAt": "2026-11-03T00:17:01.343Z",
+      "status": "unavailable",
+      "attemptedAt": "2026-11-03T02:17:01.356Z",
       "lastSuccessfulAt": "2026-11-03T00:17:24.181Z",
-      "errors": []
+      "errors": [
+        "HTTP 503；停止來源，不繞過存取限制"
+      ]
     }
   ],
   "purchase": false,
