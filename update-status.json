@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "attemptedAt": "2026-11-03T02:17:01.356Z",
+  "attemptedAt": "2026-11-03T04:17:01.360Z",
   "outcome": "failed-kept-last-good",
   "snapshotAt": "2026-11-03T00:17:01.343Z",
   "stale": true,
@@ -9,16 +9,16 @@
     {
       "id": "livenation",
       "status": "unavailable",
-      "attemptedAt": "2026-11-03T02:17:01.356Z",
+      "attemptedAt": "2026-11-03T04:17:01.360Z",
       "lastSuccessfulAt": "2026-11-03T00:17:05.074Z",
       "errors": [
-        "robots.txt 無法確認，暫不抓取此來源"
+        "HTTP 503；停止來源，不繞過存取限制"
       ]
     },
     {
       "id": "opentix",
       "status": "unavailable",
-      "attemptedAt": "2026-11-03T02:17:01.356Z",
+      "attemptedAt": "2026-11-03T04:17:01.360Z",
       "lastSuccessfulAt": "2026-11-03T00:17:24.181Z",
       "errors": [
         "HTTP 503；停止來源，不繞過存取限制"
