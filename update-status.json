@@ -1,26 +1,28 @@
 {
   "schemaVersion": 1,
-  "attemptedAt": "2026-11-03T08:17:01.380Z",
-  "outcome": "partial",
+  "attemptedAt": "2026-11-03T09:17:01.389Z",
+  "outcome": "failed-kept-last-good",
   "snapshotAt": "2026-11-03T08:17:01.380Z",
-  "stale": false,
+  "stale": true,
   "complete": false,
   "sources": [
     {
       "id": "livenation",
-      "status": "partial",
-      "attemptedAt": "2026-11-03T08:17:01.380Z",
+      "status": "unavailable",
+      "attemptedAt": "2026-11-03T09:17:01.389Z",
       "lastSuccessfulAt": "2026-11-03T08:17:03.971Z",
       "errors": [
-        "已略過 robots 不允許的藝人路徑"
+        "Public source request failed; backoff one hour"
       ]
     },
     {
       "id": "opentix",
-      "status": "partial",
-      "attemptedAt": "2026-11-03T08:17:01.380Z",
+      "status": "unavailable",
+      "attemptedAt": "2026-11-03T09:17:01.389Z",
       "lastSuccessfulAt": "2026-11-03T08:17:23.510Z",
-      "errors": []
+      "errors": [
+        "Public source request failed; backoff one hour"
+      ]
     }
   ],
   "purchase": false,
