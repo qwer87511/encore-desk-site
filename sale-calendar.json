@@ -3,9 +3,9 @@
   "contractVersion": 1,
   "timezone": "Asia/Taipei",
   "snapshot": {
-    "generatedAt": "2026-11-03T12:17:01.687Z",
+    "generatedAt": "2026-11-03T13:17:01.399Z",
     "producer": "encore-desk",
-    "sourceSnapshotHash": "2a34d036dd2e7b72b3c18be7c8fdd0dd4e5ba76ce408f152f06b130dc53b2729",
+    "sourceSnapshotHash": "414530d65e1e15930a277540999f2c56f8fc4e04f5494945817b09e2c4c2546d",
     "freshness": "per-source-evidence",
     "complete": false
   },
@@ -102,12 +102,12 @@
         "url": "https://www.livenation.com.tw/",
         "scope": "官方首頁推薦藝人與其台灣演出；非全部主辦",
         "status": "unavailable",
-        "attemptedAt": "2026-11-03T12:17:01.687Z",
+        "attemptedAt": "2026-11-03T13:17:01.399Z",
         "lastSuccessfulAt": "2026-11-03T08:17:03.971Z",
         "discovered": 0,
         "parsed": 0,
         "errors": [
-          "Public source request failed; backoff one hour"
+          "robots.txt 無法確認，暫不抓取此來源"
         ]
       },
       {
@@ -116,11 +116,13 @@
         "url": "https://www.opentix.life/",
         "scope": "官方首頁推薦節目；含戲劇、音樂與親子，非全站",
         "status": "partial",
-        "attemptedAt": "2026-11-03T12:17:01.687Z",
-        "lastSuccessfulAt": "2026-11-03T12:17:21.321Z",
+        "attemptedAt": "2026-11-03T13:17:01.399Z",
+        "lastSuccessfulAt": "2026-11-03T13:17:03.674Z",
         "discovered": 64,
-        "parsed": 4,
-        "errors": []
+        "parsed": 3,
+        "errors": [
+          "Public source request failed; backoff one hour"
+        ]
       }
     ],
     "limitations": [
@@ -1288,7 +1290,7 @@
               "sourcePhaseId": "65cb9809366560a81adc",
               "sourceUrl": "https://www.opentix.life/event/2076923186045493249",
               "evidenceText": "offers.availabilityStarts=2026-08-04T12:00:00; validFrom=2026-08-04T12:00:00",
-              "fetchedAt": "2026-11-03T11:17:29.149Z",
+              "fetchedAt": "2026-11-03T13:17:05.902Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -1317,8 +1319,8 @@
           "venue": "臺中國家歌劇院中劇院",
           "eventAt": "2026-11-27T10:00:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-03T11:17:29.149Z",
-          "lastVerifiedAt": "2026-11-03T11:17:29.149Z",
+          "fetchedAt": "2026-11-03T13:17:05.902Z",
+          "lastVerifiedAt": "2026-11-03T13:17:05.902Z",
           "status": "published",
           "stale": false
         }
@@ -1920,7 +1922,7 @@
               "sourcePhaseId": "2c0b3387c389bb58404c",
               "sourceUrl": "https://www.opentix.life/event/2071531444179013633",
               "evidenceText": "offers.availabilityStarts=2026-09-01T12:00:00; validFrom=2026-09-01T12:00:00",
-              "fetchedAt": "2026-11-03T12:17:23.732Z",
+              "fetchedAt": "2026-11-03T13:17:23.260Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -1948,8 +1950,8 @@
           "venue": "國家音樂廳",
           "eventAt": "2026-11-27T11:30:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-03T12:17:23.732Z",
-          "lastVerifiedAt": "2026-11-03T12:17:23.732Z",
+          "fetchedAt": "2026-11-03T13:17:23.260Z",
+          "lastVerifiedAt": "2026-11-03T13:17:23.260Z",
           "status": "published",
           "stale": false
         }
@@ -6429,7 +6431,7 @@
               "sourcePhaseId": "d945a4576e5a32dfdb2b",
               "sourceUrl": "https://www.opentix.life/event/2086778741904691201",
               "evidenceText": "offers.availabilityStarts=2026-09-01T12:00:00; validFrom=2026-09-01T12:00:00",
-              "fetchedAt": "2026-11-03T12:17:26.102Z",
+              "fetchedAt": "2026-11-03T13:17:25.576Z",
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
@@ -6456,8 +6458,8 @@
           "venue": "衛武營國家藝術文化中心音樂廳",
           "eventAt": "2026-11-22T06:30:00.000Z",
           "eventDateText": null,
-          "fetchedAt": "2026-11-03T12:17:26.102Z",
-          "lastVerifiedAt": "2026-11-03T12:17:26.102Z",
+          "fetchedAt": "2026-11-03T13:17:25.576Z",
+          "lastVerifiedAt": "2026-11-03T13:17:25.576Z",
           "status": "published",
           "stale": false
         }
@@ -8033,7 +8035,7 @@
         "decision": "source-record-only",
         "doesNotAssertSamePerformance": false
       },
-      "status": "published",
+      "status": "stale",
       "sessions": [
         {
           "id": "session-d6140078e2596858742f8b5f",
@@ -8067,7 +8069,7 @@
             "session-4199c553d8eb85fe8c4e201d"
           ],
           "scope": "explicit-sessions",
-          "status": "announced",
+          "status": "needs_review",
           "precision": "minute",
           "claims": [
             {
@@ -8080,7 +8082,7 @@
               "label": "平台起售時間（資格待核實）",
               "kind": "announced",
               "status": "announced",
-              "stale": false,
+              "stale": true,
               "startsAt": "2026-08-01T04:00:00.000Z",
               "endsAt": "2026-11-14T07:30:00.000Z",
               "eligibility": "資格未核實",
@@ -8107,7 +8109,7 @@
           "fetchedAt": "2026-11-03T12:17:28.382Z",
           "lastVerifiedAt": "2026-11-03T12:17:28.382Z",
           "status": "published",
-          "stale": false
+          "stale": true
         }
       ]
     }
