@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "attemptedAt": "2026-11-03T09:17:01.389Z",
+  "attemptedAt": "2026-11-03T10:17:01.396Z",
   "outcome": "failed-kept-last-good",
   "snapshotAt": "2026-11-03T08:17:01.380Z",
   "stale": true,
@@ -9,19 +9,19 @@
     {
       "id": "livenation",
       "status": "unavailable",
-      "attemptedAt": "2026-11-03T09:17:01.389Z",
+      "attemptedAt": "2026-11-03T10:17:01.396Z",
       "lastSuccessfulAt": "2026-11-03T08:17:03.971Z",
       "errors": [
-        "Public source request failed; backoff one hour"
+        "robots.txt 無法確認，暫不抓取此來源"
       ]
     },
     {
       "id": "opentix",
       "status": "unavailable",
-      "attemptedAt": "2026-11-03T09:17:01.389Z",
+      "attemptedAt": "2026-11-03T10:17:01.396Z",
       "lastSuccessfulAt": "2026-11-03T08:17:23.510Z",
       "errors": [
-        "Public source request failed; backoff one hour"
+        "HTTP 503；停止來源，不繞過存取限制"
       ]
     }
   ],
